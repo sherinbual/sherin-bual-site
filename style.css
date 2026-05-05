@@ -59,11 +59,19 @@ p span {
 }
 
 button {
-  margin-top: 20px;
-  padding: 12px 24px;
+  margin-top: 10px;
+  padding: 14px 28px;
   background: #a11212;
   color: white;
   border: none;
   border-radius: 999px;
+  font-size: 16px;
   cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
