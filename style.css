@@ -3,10 +3,7 @@ body {
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 40px;
-  background: white;
+  display: none;
 }
 
 .logo {
