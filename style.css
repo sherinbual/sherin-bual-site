@@ -24,7 +24,7 @@ nav {
   height: 100vh;
   background: 
     url('hero.png') center/90% no-repeat,
-    url('watercolor-texture.png') center/cover no-repeat;
+    url('watercolor-bg.png') center/cover no-repeat;
 }
   display: flex;
   justify-content: center;
