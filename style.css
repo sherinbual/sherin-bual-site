@@ -55,8 +55,7 @@ p span {
 button {
   position: absolute;
 
-  /* adjust these two values to place it perfectly */
-  top: 62%;
+  top: 62%;        /* 👈 RIGHT HERE */
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -70,8 +69,4 @@ button {
 
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   transition: all 0.3s ease;
-}
-
-button:hover {
-  transform: translate(-50%, -52%);
 }
