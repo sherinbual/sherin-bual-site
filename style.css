@@ -25,7 +25,11 @@ nav {
 .hero {
   height: 100vh;
   background: url('hero.png') center/contain no-repeat;
-  background-color: #f5e9d8; /* fallback color */
+  background-color: #f5e9d8;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .overlay {
