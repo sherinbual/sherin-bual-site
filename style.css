@@ -67,3 +67,19 @@ button {
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   transition: all 0.3s ease;
 }
+.cta-button {
+  display: inline-block;
+  padding: 16px 24px;
+  background: #a11212;
+  color: white;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 16px;
+
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
