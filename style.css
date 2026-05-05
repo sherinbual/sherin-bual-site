@@ -1,7 +1,5 @@
 body {
-  margin: 0;
-  font-family: serif;
-  background: #f5e9d8;
+  background: linear-gradient(#f5e9d8, #efe2cd);
 }
 
 nav {
