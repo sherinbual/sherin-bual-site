@@ -55,7 +55,7 @@ p span {
 button {
   position: absolute;
 
-  top: 62%;        /* 👈 RIGHT HERE */
+  top: 65%;        /* 👈 RIGHT HERE */
   left: 50%;
   transform: translate(-50%, -50%);
 
