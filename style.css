@@ -106,21 +106,8 @@ p span {
 
   transition: all 0.3s ease;
 }
-.side-menu {
-  position: fixed;
-  left: 0;
-  top: 0;
+.side-menu a:hover {
+  color: #b88a44;
 
-  width: 210px;
-  height: 100vh;
-
-  background: rgba(255,255,255,0.35);
-
-  backdrop-filter: blur(4px);
-
-  padding: 140px 24px;
-
-  border-right: 1px solid rgba(255,255,255,0.18);
-
-  z-index: 9999;
+  transform: translateX(3px);
 }
