@@ -1,5 +1,8 @@
 body {
-  background-color: #f5e9d8;
+  background-image: url('images/beige-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
