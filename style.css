@@ -121,3 +121,13 @@ p span {
 
   transform: translateX(3px);
 }
+.hero-logo {
+  width: 420px;
+
+  position: absolute;
+
+  top: 50%;
+  left: 58%;
+
+  transform: translate(-50%, -50%);
+}
