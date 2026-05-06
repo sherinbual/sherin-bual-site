@@ -91,17 +91,34 @@ p span {
 }
 .side-menu a {
   display: block;
+
   margin-bottom: 22px;
+
+  color: #7a4b36 !important;
+
+  font-size: 22px;
 
   text-decoration: none;
 
-  color: #7a4b36;
+  position: relative;
 
-  font-family: Georgia, serif;
-  font-size: 18px;
-
-  transition: all 0.3s ease;
+  z-index: 9999;
 }
-.side-menu a:hover {
-  color: #b88a44;
+.side-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  width: 210px;
+  height: 100vh;
+
+  background: rgba(255,255,255,0.35);
+
+  backdrop-filter: blur(4px);
+
+  padding: 140px 24px;
+
+  border-right: 1px solid rgba(255,255,255,0.18);
+
+  z-index: 9999;
 }
