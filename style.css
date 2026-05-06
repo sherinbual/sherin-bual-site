@@ -21,7 +21,7 @@
   height: 100vh;
 
   background:
-    url('hero.png') 110% center/80% no-repeat,
+    url('hero.png') 110% center/90% no-repeat,
     url('beige-background.jpeg') center/cover no-repeat;
 
   position: relative;
