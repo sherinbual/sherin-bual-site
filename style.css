@@ -30,7 +30,16 @@
   justify-content: center;
   align-items: center;
 }
+.hero-logo {
+  width: 420px;
 
+  position: absolute;
+
+  top: 50%;
+  left: 58%;
+
+  transform: translate(-50%, -50%);
+}
 .overlay {
   background: none;
   padding: 0;
@@ -121,13 +130,4 @@ p span {
 
   transform: translateX(3px);
 }
-.hero-logo {
-  width: 420px;
 
-  position: absolute;
-
-  top: 50%;
-  left: 58%;
-
-  transform: translate(-50%, -50%);
-}
