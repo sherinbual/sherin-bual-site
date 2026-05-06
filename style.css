@@ -94,17 +94,17 @@ p span {
 .side-menu a {
   display: block;
 
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 
-  color: #7a4b36 !important;
+  color: #7a4b36;
 
-  font-size: 22px;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  letter-spacing: 0.4px;
 
   text-decoration: none;
 
-  position: relative;
-
-  z-index: 9999;
+  transition: all 0.3s ease;
 }
 .side-menu {
   position: fixed;
