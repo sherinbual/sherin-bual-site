@@ -2,7 +2,7 @@ body {
   margin: 0;
   min-height: 100vh;
 
-  background: url("./beige-background.jpeg") center center / cover no-repeat fixed;
+  background: url("./watercolor-bg.png") center center / cover no-repeat fixed;
 }
 
 
@@ -21,7 +21,7 @@ body {
   height: 100vh;
   background: 
     url('hero.png') 110% center/90% no-repeat,
-    url('beige-background.jpeg') center/cover no-repeat;
+    url('watercolor-bg.png') center/cover no-repeat;
 
   position: relative;
 }
