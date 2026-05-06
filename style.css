@@ -74,13 +74,11 @@ p span {
   width: 190px;
   height: 100vh;
 
-  background: rgba(255,255,255,0.10);
-
-  backdrop-filter: blur(2px);
+  background: rgba(255,255,255,0.04);
 
   padding: 120px 24px;
 
-  border-right: 1px solid rgba(255,255,255,0.12);
+  border-right: 1px solid rgba(180,140,90,0.12);
 
   z-index: 9999;
 }
