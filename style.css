@@ -48,9 +48,7 @@ p {
 
 p span {
   color: #a11212;
-}
-
-.cta-button {
+}.cta-button {
   position: absolute;
 
   top: 75%;
@@ -67,6 +65,7 @@ p span {
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   transition: all 0.3s ease;
 }
+
 .side-menu {
   position: fixed;
   left: 0;
