@@ -132,7 +132,36 @@ p span {
 }
 .about-hero {
   height: 100vh;
-  background-image: url('images/about-hero.jpg');
+  background-image: url('about-hero.jpg');
   background-size: cover;
   background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 8%;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 5rem;
+  color: #4b3a2e;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #6d5c4d;
+}
+
+.bio-section {
+  background: #f6f1ea;
+  padding: 120px 10%;
+}
+
+.bio-text {
+  max-width: 700px;
 }
