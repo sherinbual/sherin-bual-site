@@ -18,7 +18,7 @@
 }
 
 .hero {
-  height: 100vh;
+  height: 72vh;
 
   background:
   url('background-art.png') calc(73% + 40px) center/82% no-repeat,
