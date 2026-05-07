@@ -178,7 +178,7 @@ p span {
   background-size: cover;
   background-position: center;
 
-  background-blend-mode: luminosity;
+  background-blend-mode: multiply;
 
   display: flex;
   justify-content: center;
