@@ -130,4 +130,9 @@ p span {
 
   transform: translateX(3px);
 }
-
+.about-hero {
+  height: 100vh;
+  background-image: url('images/about-hero.jpg');
+  background-size: cover;
+  background-position: center;
+}
