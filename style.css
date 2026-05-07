@@ -21,12 +21,10 @@
   height: 100vh;
 
   background:
-  url('background-art.png') 73% center/92% no-repeat,
+  url('background-art.png') calc(73% + 40px) center/82% no-repeat,
   url('beige-background.jpeg') center/cover no-repeat;
 
   position: relative;
-
-  overflow: hidden;
 
   display: flex;
   justify-content: center;
