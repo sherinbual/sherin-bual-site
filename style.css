@@ -168,8 +168,12 @@ p span {
 .services-hero {
   min-height: 100vh;
 
-  background-image: url('services-background.png');
-
+  background-image:
+  linear-gradient(
+    rgba(245, 236, 226, 0.18),
+    rgba(245, 236, 226, 0.18)
+  ),
+  url('services-background.png');
   background-size: cover;
   background-position: center;
 
