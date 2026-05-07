@@ -235,3 +235,23 @@ p span {
 .service-box p {
   line-height: 1.8;
 }
+.services-heading {
+  position: absolute;
+
+  left: 8%;
+  top: 38%;
+
+  z-index: 2;
+}
+
+.services-heading h1 {
+  font-family: 'Cormorant Garamond', serif;
+
+  font-size: 5rem;
+
+  font-weight: 400;
+
+  letter-spacing: 2px;
+
+  color: #5d4636;
+}
