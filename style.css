@@ -132,7 +132,7 @@ p span {
 }
 .about-hero {
   height: 100vh;
-  background-image: url('about-hero.jpg');
+  background-image: url('about-hero.png');
   background-size: cover;
   background-position: center;
   display: flex;
