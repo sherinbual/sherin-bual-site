@@ -305,11 +305,11 @@ p span {
   font-size: 1.0rem;
 }
 .contact-hero {
-  height: 65vh;
+  height: 10vh;
   background-image: url('contact.png');
   background-size: contain;
 background-repeat: no-repeat;
-background-color: #e9dccf;
+background-color: red;
   background-position: center;
   display: flex;
   align-items: center;
