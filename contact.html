@@ -17,20 +17,31 @@
     }
 
     .contact-hero {
-      height: 85vh;
-      background-image: url('contact.png');
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      align-items: center;
-      padding-left: 8%;
+      position: relative;
+      height: 42vh;
+      overflow: hidden;
+    }
+
+    .hero-image {
+      width: 100%;
+      height: auto;
+      margin-top: -220px;
+      display: block;
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 8%;
+      transform: translateY(-50%);
       color: #4b3a2f;
     }
 
-    .contact-hero h1 {
+    .hero-text h1 {
       font-size: 5rem;
       font-weight: 400;
       font-family: 'Cormorant Garamond', serif;
+      margin: 0;
     }
 
   </style>
@@ -38,8 +49,6 @@
 </head>
 
 <body>
-
- <body>
 
   <section class="contact-hero">
 
@@ -50,8 +59,6 @@
     </div>
 
   </section>
-
-</body>
 
 </body>
 
