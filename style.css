@@ -314,3 +314,10 @@ p span {
   padding-left: 8%;
   color: #4b3a2f;
 }
+
+.contact-hero h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  font-family: 'Cormorant Garamond', serif;
+}
+}
