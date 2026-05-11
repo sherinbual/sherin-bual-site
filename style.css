@@ -308,7 +308,7 @@ p span {
   height: 42vh;
   background-image: url('contact.png');
   background-size: cover;
-  background-position: center 85%;
+  background-position: center 90%;
   display: flex;
   align-items: center;
   padding-left: 8%;
