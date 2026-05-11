@@ -304,36 +304,33 @@ p span {
 
   font-size: 1.0rem;
 }
-<style>
 
   body {
     margin: 0;
   }
 
   .contact-hero {
-    position: relative;
-    height: 42vh;
-    overflow: hidden;
-  }
+  position: relative;
+  height: 42vh;
+  overflow: hidden;
+}
 
-  .hero-image {
-    width: 100%;
-    height: auto;
-    margin-top: -220px;
-  }
+.hero-image {
+  width: 100%;
+  height: auto;
+  margin-top: -220px;
+}
 
-  .hero-text {
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-    color: #4b3a2f;
-  }
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  color: #4b3a2f;
+}
 
-  .hero-text h1 {
-    font-size: 5rem;
-    font-weight: 400;
-    font-family: 'Cormorant Garamond', serif;
-  }
-
-</style>
+.hero-text h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  font-family: 'Cormorant Garamond', serif;
+}
