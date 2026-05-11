@@ -304,3 +304,13 @@ p span {
 
   font-size: 1.0rem;
 }
+.contact-hero {
+  height: 38vh;
+  background-image: url('contact.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 8%;
+  color: #4b3a2f;
+}
