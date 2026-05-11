@@ -307,7 +307,9 @@ p span {
 .contact-hero {
   height: 65vh;
   background-image: url('contact.png');
-  background-size: cover;
+  background-size: contain;
+background-repeat: no-repeat;
+background-color: #e9dccf;
   background-position: center;
   display: flex;
   align-items: center;
