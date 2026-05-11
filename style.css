@@ -305,32 +305,17 @@ p span {
   font-size: 1.0rem;
 }
 
-  body {
-    margin: 0;
-  }
+ 
+    <body>
 
-  .contact-hero {
-  position: relative;
-  height: 42vh;
-  overflow: hidden;
-}
+  <section class="contact-hero">
 
-.hero-image {
-  width: 100%;
-  height: auto;
-  margin-top: -220px;
-}
+    <img src="contact.png" class="hero-image">
 
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 8%;
-  transform: translateY(-50%);
-  color: #4b3a2f;
-}
+    <div class="hero-text">
+      <h1>Contact</h1>
+    </div>
 
-.hero-text h1 {
-  font-size: 5rem;
-  font-weight: 400;
-  font-family: 'Cormorant Garamond', serif;
-}
+  </section>
+
+</body>
