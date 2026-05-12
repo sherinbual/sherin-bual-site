@@ -4,7 +4,19 @@
 
   background: url("./beige-background.jpeg") center center / cover no-repeat fixed;
 }
+body {
+  font-family: 'Inter', sans-serif;
+  color: #f5f1ea;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+}
 
+h1, h2, h3, h4 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.1;
+}
 
 .logo {
   color: #a11212;
