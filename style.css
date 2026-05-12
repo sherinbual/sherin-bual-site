@@ -131,6 +131,9 @@ p span {
   color: #b88a44;
 
   transform: translateX(3px);
+  .side-menu a {
+  margin-bottom: 1rem;
+  display: block;
 }
 .about-hero {
   height: 78vh;
