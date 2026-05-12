@@ -323,24 +323,12 @@ p span {
   font-size: 1.0rem;
 }
 
-    <body>
-
-  <section class="contact-hero">
-
-    <img src="contact.png" class="hero-image">
-
-    <div class="hero-text">
-      <h1>Contact</h1>
-    </div>
-
-  </section>
-
-</body>
 .hero-image {
   width: 50%;
   margin-top: -500px;
-  border: 10px solid red;
-  .fade-up {
+}
+
+.fade-up {
   opacity: 0;
   transform: translateY(30px);
 
@@ -352,5 +340,4 @@ p span {
 .fade-up.visible {
   opacity: 1;
   transform: translateY(0);
-}
 }
