@@ -122,20 +122,10 @@ p span {
   margin-top: 120px;
 }
 .side-menu a {
-  display: block;
-
-  margin-bottom: 20px;
-
-  color: #7a4b36;
-
-  font-family: 'Cormorant Garamond', serif;
-
-  font-size: 22px;
-  letter-spacing: 0.5px;
-
-  text-decoration: none;
-
-  transition: all 0.3s ease;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.78rem;
 }
 .side-menu a:hover {
   color: #b88a44;
