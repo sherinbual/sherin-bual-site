@@ -122,7 +122,7 @@ p span {
 .side-menu nav {
   display: flex;
   flex-direction: column;
-  gap: 1.8rem;
+  gap: 2.4rem;
 }
 
 .side-menu a {
