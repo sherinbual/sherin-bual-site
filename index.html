@@ -1,36 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sherin Bual</title>
+
   <link rel="stylesheet" href="style.css" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-  
-    
-    <div class="side-menu">
-      <a href="index.html">HOME</a>
-      <a href="about.html">ABOUT</a>
-      <a href="services.html">SERVICES</a>
-      <a href="contact.html">CONTACT</a>
-    </div>
-  
+  <div class="side-menu">
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="services.html">SERVICES</a>
+    <a href="contact.html">CONTACT</a>
+  </div>
 
-  <section class="hero">
+  <section class="hero fade-up">
+    <img src="logo.png" class="hero-logo">
+  </section>
 
-  <img src="logo.png" class="hero-logo">
+  <a href="booking.html" class="cta-button">
+    Book a Session
+  </a>
 
-</section>
-      
-      
-      <a href="booking.html" class="cta-button">
-  Book a Session
-</a>
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: 0.15
+    });
+
+    const fadeEls = document.querySelectorAll('.fade-up');
+
+    fadeEls.forEach(el => observer.observe(el));
+  </script>
+
+</body>
+
+</html>
