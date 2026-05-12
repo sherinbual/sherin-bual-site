@@ -73,7 +73,7 @@ p span {
 .cta-button {
   position: absolute;
 
-  bottom: 120px;
+  bottom: 200px;
   left: 55%;
 
   transform: translateX(-50%);
