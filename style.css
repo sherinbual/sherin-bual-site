@@ -58,17 +58,17 @@ h1, h2, h3, h4 {
   box-shadow: none;
 }
 h1 {
-  color: #a11212;
+  color: #f5f1ea;
   font-size: 48px;
 }
 
 p {
-  color: goldenrod;
+  color: #d8cfc2;
   font-size: 20px;
 }
 
 p span {
-  color: #a11212;
+  color: #b89c7a;
 }
 .cta-button {
   display: inline-block;
@@ -101,7 +101,7 @@ p span {
     box-shadow 0.6s ease,
     background 0.6s ease,
     opacity 0.5s ease;
-
+}
 .cta-button:hover {
   transform: translateY(-2px);
 
