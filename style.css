@@ -119,10 +119,11 @@ p span {
   justify-content: center;
 }
 
-.side-menu nav {
+.side-menu {
   display: flex;
   flex-direction: column;
-  gap: 3.5rem;
+  justify-content: center;
+  gap: 2.4rem;
 }
 
 .side-menu a {
