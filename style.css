@@ -131,13 +131,23 @@ p span {
   transform: translateX(3px);
 }
 .about-hero {
-  height: 100vh;
+  height: 78vh;
   background-image: url('about-hero.png');
   background-size: cover;
-  background-position: center;
+  background-position: center 42%;
+
   display: flex;
   align-items: center;
+
   padding-left: 8%;
+
+  overflow: hidden;
+
+  filter:
+    sepia(6%)
+    saturate(92%)
+    brightness(104%)
+    contrast(94%);
 }
 
 .hero-content {
