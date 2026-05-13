@@ -60,11 +60,11 @@ h1, h2, h3, h4 {
 </section>
 }
 .hero-logo {
-  width: 420px;
+  width: 320px;
 
   position: absolute;
 
-  top: 50%;
+  top: 42%;
   left: 55%;
 
   transform: translate(-50%, -50%);
