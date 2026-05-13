@@ -401,13 +401,6 @@ padding: 14rem 2rem 5rem;
   pointer-events: none;
 }
 
-/* KEEP CONTENT ABOVE OVERLAY */
-.hero-logo,
-.cta-button {
-  position: relative;
-  z-index: 5;
-}
-
 
 /* BUTTON GLOW */
 .cta-button:hover {
