@@ -359,6 +359,7 @@ padding: 14rem 2rem 5rem;
 .fade-up.visible {
   opacity: 1;
   transform: translateY(0);
+}
 /* =========================================
    CINEMATIC HERO ANIMATIONS
 ========================================= */
