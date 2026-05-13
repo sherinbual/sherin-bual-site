@@ -42,23 +42,7 @@ h1, h2, h3, h4 {
   align-items: center;
   overflow: hidden;
 }
-  <section class="hero">
-
-  <img
-    src="logo.png"
-    class="hero-logo fade-up visible"
-    alt="Sherin Bual Logo"
-  >
-
-  <a
-    href="booking.html"
-    class="cta-button fade-up visible"
-  >
-    Book a Session
-  </a>
-
-</section>
-}
+ 
 .hero-logo {
   width: 320px;
   
