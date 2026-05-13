@@ -361,143 +361,32 @@ padding: 14rem 2rem 5rem;
   transform: translateY(0);
 }
 /* =========================================
-   CINEMATIC HERO ANIMATIONS
+   CINEMATIC EFFECTS
 ========================================= */
 
-/* HERO CONTAINER */
-.hero {
-  position: relative;
-  overflow: hidden;
-}
-
-/* SLOW BACKGROUND MOTION */
-.hero-bg {
-  animation: slowZoom 24s ease-in-out infinite alternate;
-  will-change: transform;
-}
-
-@keyframes slowZoom {
-  from {
-    transform: scale(1);
-  }
-
-  to {
-    transform: scale(1.04);
-  }
-}
-
-/* ATMOSPHERIC OVERLAY */
-.hero::before {
+/* SLOW BACKGROUND MOVEMENT */
+.hero::after {
   content: "";
+
   position: absolute;
   inset: 0;
 
   background:
-    radial-gradient(
-      circle at center,
-      rgba(255, 220, 170, 0.12),
-      rgba(0, 0, 0, 0.28)
-    );
+    url('background-art.png') calc(73% + 40px) center/82% no-repeat;
 
-  z-index: 1;
+  animation: slowZoom 24s ease-in-out infinite alternate;
+
+  z-index: 0;
+
   pointer-events: none;
 }
 
-/* KEEP CONTENT ABOVE OVERLAY */
-.hero-content {
+/* KEEP CONTENT ABOVE */
+.hero-logo,
+.cta-button,
+.side-menu {
   position: relative;
-  z-index: 2;
-}
-
-/* FADE UP ANIMATION */
-.fade-up {
-  opacity: 0;
-  transform: translateY(30px);
-  animation: fadeUp 1.6s ease forwards;
-}
-
-.fade-delay-1 {
-  animation-delay: 0.6s;
-}
-
-.fade-delay-2 {
-  animation-delay: 1.2s;
-}
-
-.fade-delay-3 {
-  animation-delay: 1.8s;
-}
-
-.fade-delay-4 {
-  animation-delay: 2.3s;
-}
-
-@keyframes fadeUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* GENTLE FLOATING */
-.float {
-  animation: float 8s ease-in-out infinite;
-}
-
-@keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
-
-  50% {
-    transform: translateY(-6px);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
-}
-
-/* BUTTON HOVER */
-.hero-button {
-  transition:
-    transform 0.5s ease,
-    box-shadow 0.5s ease,
-    background 0.5s ease;
-}
-
-.hero-button:hover {
-  transform: translateY(-2px);
-
-  box-shadow:
-    0 10px 30px rgba(180, 70, 50, 0.28);
-}
-/* =========================================
-   CINEMATIC HERO
-========================================= */
-
-.hero {
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* BACKGROUND IMAGE */
-.hero-bg {
-  position: absolute;
-  inset: 0;
-
-  background-image: url('your-background-image.jpg');
-  background-size: cover;
-  background-position: center;
-
-  animation: slowZoom 24s ease-in-out infinite alternate;
-
-  z-index: 1;
+  z-index: 5;
 }
 
 /* ATMOSPHERIC OVERLAY */
@@ -510,72 +399,13 @@ padding: 14rem 2rem 5rem;
   background:
     radial-gradient(
       circle at center,
-      rgba(255, 220, 170, 0.10),
-      rgba(0, 0, 0, 0.28)
+      rgba(255, 220, 170, 0.08),
+      rgba(0, 0, 0, 0.18)
     );
 
-  z-index: 2;
-}
+  z-index: 1;
 
-/* CONTENT */
-.hero-content {
-  position: relative;
-  z-index: 3;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2.5rem;
-}
-
-/* LOGO */
-.hero-logo {
-  width: 420px;
-  max-width: 80vw;
-}
-
-/* FADE ANIMATION */
-.fade-up {
-  opacity: 0;
-  transform: translateY(30px);
-
-  animation: fadeUp 1.6s ease forwards;
-}
-
-.fade-delay-1 {
-  animation-delay: 0.6s;
-}
-
-.fade-delay-2 {
-  animation-delay: 1.4s;
-}
-
-@keyframes fadeUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* FLOATING EFFECT */
-.float {
-  animation:
-    fadeUp 1.6s ease forwards,
-    float 8s ease-in-out infinite 2s;
-}
-
-@keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
-
-  50% {
-    transform: translateY(-6px);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
+  pointer-events: none;
 }
 
 /* SLOW CINEMATIC ZOOM */
@@ -585,40 +415,47 @@ padding: 14rem 2rem 5rem;
   }
 
   to {
-    transform: scale(1.04);
+    transform: scale(1.035);
   }
 }
 
-/* BUTTON */
+/* FLOATING LOGO */
+.hero-logo {
+  animation: float 8s ease-in-out infinite;
+}
+
+/* FLOATING MOTION */
+@keyframes float {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+
+  50% {
+    transform: translate(-50%, calc(-50% - 6px));
+  }
+
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* BUTTON GLOW */
 .cta-button {
-  background: #a63d2f;
-
-  color: white;
-
-  padding: 14px 34px;
-
-  border-radius: 999px;
-
-  text-decoration: none;
-
-  font-family: 'Inter', sans-serif;
-  font-size: 0.95rem;
-  letter-spacing: 0.08em;
-
   transition:
     transform 0.5s ease,
-    box-shadow 0.5s ease,
-    background 0.5s ease;
-
-  box-shadow:
-    0 10px 30px rgba(166, 61, 47, 0.25);
+    box-shadow 0.6s ease,
+    background 0.6s ease,
+    opacity 0.5s ease;
 }
 
 .cta-button:hover {
-  transform: translateY(-2px);
+  transform:
+    translateX(-50%)
+    translateY(-2px);
 
   box-shadow:
-    0 16px 40px rgba(166, 61, 47, 0.35);
+    0 0 40px rgba(161,18,18,0.22);
 
-  background: #b44838;
+  background:
+    rgba(161,18,18,0.14);
 }
