@@ -31,7 +31,6 @@ h1, h2, h3, h4 {
 
 .hero {
   height: 100vh;
-
   background:
   url('background-art.png') calc(73% + 40px) center/82% no-repeat,
   url('beige-background.jpeg') center/cover no-repeat;
@@ -378,6 +377,7 @@ padding: 14rem 2rem 5rem;
   opacity: 1;
   transform: translateY(0);
 }
+
 /* =========================================
    CINEMATIC EFFECTS
 ========================================= */
@@ -455,7 +455,6 @@ padding: 14rem 2rem 5rem;
   100% {
     transform: translate(-50%, -50%);
   }
-}
 
 /* BUTTON GLOW */
 .cta-button {
