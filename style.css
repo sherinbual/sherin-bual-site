@@ -378,3 +378,58 @@ padding: 14rem 2rem 5rem;
   transform: translateY(0);
 }
 
+/* =========================================
+   CINEMATIC EFFECTS
+========================================= */
+
+/* ATMOSPHERIC OVERLAY */
+.hero::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(255, 220, 170, 0.08),
+      rgba(0, 0, 0, 0.18)
+    );
+
+  z-index: 1;
+
+  pointer-events: none;
+}
+
+/* KEEP CONTENT ABOVE OVERLAY */
+.hero-logo,
+.cta-button {
+  position: relative;
+  z-index: 5;
+}
+
+/* FLOATING LOGO */
+.hero-logo {
+  animation: float 8s ease-in-out infinite;
+}
+
+/* FLOAT ANIMATION */
+@keyframes float {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+
+  50% {
+    transform: translate(-50%, calc(-50% - 6px));
+  }
+
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* BUTTON GLOW */
+.cta-button:hover {
+  box-shadow:
+    0 0 40px rgba(161,18,18,0.22);
+}
