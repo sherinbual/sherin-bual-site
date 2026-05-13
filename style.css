@@ -31,6 +31,7 @@ h1, h2, h3, h4 {
 
 .hero {
   height: 100vh;
+
   background:
   url('background-art.png') calc(73% + 40px) center/82% no-repeat,
   url('beige-background.jpeg') center/cover no-repeat;
@@ -40,15 +41,14 @@ h1, h2, h3, h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
- 
+}
 .hero-logo {
-  width: 720px;
-  
+  width: 700px;
+
   position: absolute;
 
-  top: 42%;
-  left: 52%;
+  top: 50%;
+  left: 55%;
 
   transform: translate(-50%, -50%);
 }
@@ -74,7 +74,7 @@ p span {
   position: absolute;
 
   bottom: 225px;
-  left: 50%;
+  left: 55%;
 
   transform: translateX(-50%);
 
@@ -359,34 +359,4 @@ padding: 14rem 2rem 5rem;
 .fade-up.visible {
   opacity: 1;
   transform: translateY(0);
-}
-
-/* =========================================
-   CINEMATIC EFFECTS
-========================================= */
-
-/* ATMOSPHERIC OVERLAY */
-.hero::before {
-  content: "";
-
-  position: absolute;
-  inset: 0;
-
-  background:
-    radial-gradient(
-      circle at center,
-      rgba(255, 220, 170, 0.08),
-      rgba(0, 0, 0, 0.18)
-    );
-
-  z-index: 1;
-
-  pointer-events: none;
-}
-
-
-/* BUTTON GLOW */
-.cta-button:hover {
-  box-shadow:
-    0 0 40px rgba(161,18,18,0.22);
 }
