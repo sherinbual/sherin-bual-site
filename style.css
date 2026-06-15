@@ -329,7 +329,7 @@ width: calc(100% - 140px);
 
   max-width: 420px;
 
-  color: #705f52;
+ color: #5d4636;
 }
 
 .service-item h2 {
@@ -342,7 +342,7 @@ width: calc(100% - 140px);
 }
 
 .service-item p {
-  color: #705f52;
+  color: #6f6258;
   line-height: 1.9;
   font-size: 1.05rem;
 }
