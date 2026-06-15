@@ -174,7 +174,7 @@ padding: 14rem 2rem 5rem;
   display: flex;
   align-items: center;
   padding-left: 8%;
-  overflow: hidden;
+  overflow: visible;
   margin-left: 220px;
 width: calc(100% - 220px);
 }
