@@ -170,9 +170,9 @@ padding: 14rem 2rem 5rem;
 .about-hero {
   height: 78vh;
   background-image: url('about-hero.png');
-  background-size: cover;
+  background-size: 90%;
 background-repeat: no-repeat;
-  background-position: 15% 42%;
+  background-position: center;
   display: flex;
   align-items: center;
   padding-left: 8%;
