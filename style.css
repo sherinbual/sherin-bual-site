@@ -342,9 +342,8 @@ width: calc(100% - 140px);
 }
 
 .service-item p {
-
+  color: #705f52;
   line-height: 1.9;
-
   font-size: 1.05rem;
 }
 
