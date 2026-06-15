@@ -125,7 +125,7 @@ p span {
   top: 0;
 
   
-  width: 160px;
+  width: 150px;
   height: 100vh;
 
   background: rgba(255,255,255,0.04);
@@ -177,8 +177,8 @@ background-repeat: no-repeat;
   align-items: center;
   padding-left: 8%;
   overflow: visible;
-  margin-left: 160px;
-width: calc(100% - 160px);
+  margin-left: 150px;
+width: calc(100% - 150px);
 }
 
 .hero-content {
