@@ -369,7 +369,7 @@ width: calc(100% - 140px);
   opacity: 1;
   transform: translateY(0);
 }
-.faq {
+.faq-hero {
   height: 78vh;
 
   background-image: url('faq.png');
