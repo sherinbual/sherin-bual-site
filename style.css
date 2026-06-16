@@ -371,16 +371,7 @@ width: calc(100% - 140px);
 }
 .faq-hero {
   height: 78vh;
-
-  background-image: url('faq.png');
-
-  background-size: cover;
-  background-position: center;
-
-  position: relative;
-
-  margin-left: 140px;
-  width: calc(100% - 140px);
+  background: red;
 }
 .faq-heading {
   position: absolute;
