@@ -370,7 +370,7 @@ width: calc(100% - 140px);
   transform: translateY(0);
 }
 .faq-hero {
-  height: 78vh;
+  height: 88vh;
 
   background-image: url('faq.png');
 
