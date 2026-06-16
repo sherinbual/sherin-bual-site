@@ -371,8 +371,18 @@ width: calc(100% - 140px);
 }
 .faq-hero {
   height: 78vh;
-  background: red;
+
+  background-image: url('faq.png');
+
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+
+  margin-left: 140px;
+  width: calc(100% - 140px);
 }
+
 .faq-heading {
   position: absolute;
 
@@ -391,6 +401,7 @@ width: calc(100% - 140px);
 
   color: #5d4636;
 }
+
 .faq-content {
   background-image: url('beige-background.jpeg');
 
@@ -398,4 +409,27 @@ width: calc(100% - 140px);
   background-position: center;
 
   padding: 120px 10%;
+}
+
+.faq-item {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faq-item h2 {
+  font-family: 'Cormorant Garamond', serif;
+
+  font-size: 2.2rem;
+
+  color: #5d4636;
+
+  margin-bottom: 25px;
+}
+
+.faq-item p {
+  color: #705f52;
+
+  font-size: 1.05rem;
+
+  line-height: 1.9;
 }
