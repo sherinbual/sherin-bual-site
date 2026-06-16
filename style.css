@@ -369,3 +369,42 @@ width: calc(100% - 140px);
   opacity: 1;
   transform: translateY(0);
 }
+.faq {
+  height: 78vh;
+
+  background-image: url('faq.png');
+
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+
+  margin-left: 140px;
+  width: calc(100% - 140px);
+}
+.faq-heading {
+  position: absolute;
+
+  left: 80px;
+  top: 80px;
+}
+
+.faq-heading h1 {
+  font-family: 'Cormorant Garamond', serif;
+
+  font-size: 4.2rem;
+
+  font-weight: 400;
+
+  letter-spacing: 2px;
+
+  color: #5d4636;
+}
+.faq-content {
+  background-image: url('beige-background.jpeg');
+
+  background-size: cover;
+  background-position: center;
+
+  padding: 120px 10%;
+}
