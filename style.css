@@ -436,10 +436,12 @@ width: calc(100% - 140px);
   line-height: 1.9;
 }
 /* ==========================================
-   Reusable Hero Positioning
+   Shared Hero Title Positioning
 ========================================== */
 
-.hero-title-position {
+.services-heading,
+.faq-heading,
+.hero-text {
   position: absolute;
   top: 50%;
   left: 12%;
