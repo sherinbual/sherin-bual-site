@@ -435,3 +435,13 @@ width: calc(100% - 140px);
 
   line-height: 1.9;
 }
+/* ==========================================
+   Reusable Hero Positioning
+========================================== */
+
+.hero-title-position {
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  transform: translateY(-50%);
+}
