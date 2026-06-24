@@ -286,8 +286,8 @@ width: calc(100% - 140px);
 }
 .services-heading {
   position: absolute;
-  left: 40%;
-  top: 10%;
+  left: 15%;
+  top: 32%;
   z-index: 2;
 }
 
@@ -432,16 +432,4 @@ width: calc(100% - 140px);
   font-size: 1.05rem;
 
   line-height: 1.9;
-}
-/* ==========================================
-   Shared Hero Title Positioning
-========================================== */
-
-.services-heading,
-.faq-heading,
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 12%;
-  transform: translateY(-50%);
 }
