@@ -214,8 +214,10 @@ width: calc(100% - 140px);
   padding: 120px 10%;
 }
 
-.bio-text {
-  max-width: 760px;
+ .bio-text {
+    max-width: 760px;
+    margin-left: 40px;
+}
 
   font-family: 'Cormorant Garamond', serif;
   font-size: 2rem;
