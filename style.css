@@ -220,6 +220,35 @@ width: calc(100% - 140px);
 
 .bio-text p {
   color: #5d4636;
+
+   .bio-text blockquote {
+  margin: 4rem auto;
+  padding: 0;
+
+  text-align: center;
+
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 400;
+
+  color: #5d4636;
+}
+
+.bio-text blockquote p {
+  color: #5d4636;
+  margin-bottom: 1rem;
+}
+
+.bio-text blockquote footer {
+  color: #8a7461;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
 }
 .services-hero {
   min-height: 50vh;
