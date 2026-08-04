@@ -237,7 +237,7 @@ width: calc(100% - 140px);
   letter-spacing: 0.01em;
 }
    .bio-text blockquote {
-  margin: 4rem auto;
+  margin: 5rem auto;
   padding: 0;
 
   text-align: center;
