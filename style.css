@@ -226,6 +226,16 @@ width: calc(100% - 140px);
 .bio-text p {
   color: #5d4636;
 }
+.opening-line {
+  font-size: 2.4rem;
+  line-height: 1.4;
+
+  margin-bottom: 2.5rem;
+
+  color: #4b3a2e;
+
+  letter-spacing: 0.01em;
+}
    .bio-text blockquote {
   margin: 4rem auto;
   padding: 0;
