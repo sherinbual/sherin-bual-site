@@ -217,6 +217,10 @@ width: calc(100% - 140px);
 .bio-text {
   max-width: 700px;
 }
+
+.bio-text p {
+  color: #5d4636;
+}
 .services-hero {
   min-height: 50vh;
 
