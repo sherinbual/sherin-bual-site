@@ -216,6 +216,10 @@ width: calc(100% - 140px);
 
 .bio-text {
   max-width: 700px;
+  color: #5d4636;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.15rem;
+  line-height: 2;
 }
 .services-hero {
   min-height: 50vh;
