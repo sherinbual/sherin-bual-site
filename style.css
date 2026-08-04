@@ -216,6 +216,11 @@ width: calc(100% - 140px);
 
 .bio-text {
   max-width: 760px;
+
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  line-height: 1.7;
+  color: #5d4636;
 }
 
 .bio-text p {
