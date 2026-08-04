@@ -209,13 +209,10 @@ width: calc(100% - 140px);
   color: #6d5c4d;
 }
 
-.bio-section {
-  background: #f6f1ea;
-  padding: 120px 10%;
-}
 
 .bio-text {
-  max-width: 700px;
+  background: #f6f1ea;
+  padding: 120px 10%;max-width: 700px;
   color: #5d4636;
   font-family: 'Inter', sans-serif;
   font-size: 1.15rem;
