@@ -365,12 +365,8 @@ width: calc(100% - 140px);
     color: #6f6258;
 }
 .fade-up {
-  opacity: 0;
-  transform: translateY(30px);
-
-  transition:
-    opacity 1.4s ease,
-    transform 1.4s ease;
+    opacity: 1;
+    transform: none;
 }
 
 .fade-up.visible {
