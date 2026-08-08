@@ -178,18 +178,18 @@ padding: 14rem 2rem 5rem;
   opacity: 0.65;
   transform: translateX(3px);
 }
-.about-hero {
+.faq-hero {
   height: 54vh;
-  background-image: url('about-hero.png');
-  background-size: 100%;
-background-repeat: no-repeat;
-background-position: center 90%;
-  display: flex;
-  align-items: center;
-  padding-left: 8%;
-  overflow: visible;
+
+  background-image: url('faq.png');
+
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+
   margin-left: 140px;
-width: calc(100% - 140px);
+  width: calc(100% - 140px);
 }
 
 .hero-content {
