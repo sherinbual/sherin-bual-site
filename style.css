@@ -827,27 +827,25 @@ body {
 
 .contact-hero {
   position: relative;
+
   height: 54vh;
-  overflow: hidden;
 
   margin-left: 140px;
   width: calc(100% - 140px);
+
+  display: flex;
+  align-items: center;
+
+  background:
+    linear-gradient(
+      rgba(245,236,226,.10),
+      rgba(245,236,226,.10)
+    ),
+    url("contact.png") center / cover no-repeat;
+
+  overflow: hidden;
 }
 
-.hero-image {
-  width: 100%;
-  height: 100%;
-  display: block;
-
-  object-fit: cover;
-  object-position: center center;
-
-  filter:
-    sepia(6%)
-    saturate(92%)
-    brightness(104%)
-    contrast(94%);
-}
 .hero-text {
   position: absolute;
 
