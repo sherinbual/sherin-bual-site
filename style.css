@@ -307,7 +307,7 @@ width: calc(100% - 140px);
 .services-heading {
     position: absolute;
     left: 8%;
-    top: 38%;   /* if you try my suggested adjustment */
+    top: 42%;   
     z-index: 2;
 }
 
