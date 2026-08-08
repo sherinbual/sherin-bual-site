@@ -347,16 +347,11 @@ width: calc(100% - 140px);
 
     color: #5d4636;
 
-}
-
 .intro-paragraph {
     max-width: 40rem;
-
     margin: 4.5rem auto 2.5rem;
-
     font-size: 1.08rem;
     line-height: 2;
-
     color: #6f6258;
 }
 .intro-transition {
