@@ -751,7 +751,7 @@ padding: 14rem 2rem 5rem;
   height: 60vh;
   background-image: url('faq.png');
   background-size: cover;
-  background-position: center;
+  background-position: center 55%;
   position: relative;
   margin-left: 140px;
   width: calc(100% - 140px);
