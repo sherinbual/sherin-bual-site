@@ -418,7 +418,11 @@ width: calc(100% - 140px);
     flex-direction:column;
     gap:1.75rem;
 }
+/* Dream Work breathes a little more */
 
+.dream-work .section-content {
+    gap: 2.35rem;
+}
 .section-content p{
     margin:0;
     max-width:42rem;
