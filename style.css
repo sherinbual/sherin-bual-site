@@ -841,7 +841,7 @@ body {
       rgba(245,236,226,.10),
       rgba(245,236,226,.10)
     ),
-    url("contact.png") center / cover no-repeat;
+    url("contact.png") center 65% / cover no-repeat;
 
   overflow: hidden;
 }
