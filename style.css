@@ -268,30 +268,75 @@ width: calc(100% - 140px);
    SERVICES PAGE
    ========================================================== */
 
-/* ----------------------------------------------------------
-   Hero
----------------------------------------------------------- */
-
-.services-page{
-    background:url("beige-background.jpeg") center/cover no-repeat;
-    color:#5d4636;
+.services-page {
+    background: url("beige-background.jpeg") center center / cover no-repeat;
+    color: #5d4636;
 }
 
-.services-hero{
-    position:relative;
-    min-height:52vh;
-    margin-left:140px;
-    width:calc(100% - 140px);
-    display:flex;
-    align-items:center;
+
+/* ==========================================================
+   HERO
+   ========================================================== */
+
+.services-hero {
+    position: relative;
+
+    min-height: 52vh;
+
+    margin-left: 140px;
+    width: calc(100% - 140px);
+
+    display: flex;
+    align-items: center;
+
     background:
-        linear-gradient(rgba(245,236,226,.16),rgba(245,236,226,.16)),
-        url("services-background.png") center/cover no-repeat;
-   }
-   .services-hero::after {
+        linear-gradient(
+            rgba(245,236,226,.16),
+            rgba(245,236,226,.16)
+        ),
+        url("services-background.png") center / cover no-repeat;
+
+    overflow: hidden;
+}
+
+
+/* ----------------------------------------------------------
+   Hero Title
+---------------------------------------------------------- */
+
+.services-heading {
+    position: absolute;
+
+    left: 8%;
+    top: 34%;
+
+    z-index: 2;
+}
+
+.services-heading h1 {
+    margin: 0;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(3.5rem, 5vw, 4.4rem);
+    font-weight: 400;
+
+    letter-spacing: .04em;
+    line-height: 1;
+
+    color: #5d4636;
+}
+
+
+/* ----------------------------------------------------------
+   Hero Threshold
+---------------------------------------------------------- */
+
+.services-hero::after {
+
     content: "";
 
     position: absolute;
+
     left: 0;
     right: 0;
     bottom: 0;
@@ -300,61 +345,74 @@ width: calc(100% - 140px);
 
     background: linear-gradient(
         to bottom,
-        rgba(239, 224, 200, 0) 0%,
-        rgba(239, 224, 200, 0.35) 65%,
-        rgba(239, 224, 200, 0.75) 100%
+        rgba(239,224,200,0) 0%,
+        rgba(239,224,200,.35) 65%,
+        rgba(239,224,200,.75) 100%
     );
 
     pointer-events: none;
-
 }
 
-.services-heading{
-    position:absolute;
-    left:8%;
-    top:34%;
-}
 
-.services-heading h1{
-    margin:0;
-    font:400 clamp(3.4rem,5vw,4.4rem) "Cormorant Garamond",serif;
-    letter-spacing:.04em;
-    color:#5d4636;
-}
-
-/* ----------------------------------------------------------
-   Introduction
----------------------------------------------------------- */
+/* ==========================================================
+   INTRODUCTION
+   ========================================================== */
 
 .services-intro {
+
     padding: 5.5rem 2rem 7rem;
+
 }
 
-.intro-wrapper{
-    max-width:760px;
-    margin:0 auto;
-    text-align:center;
+.intro-wrapper {
+
+    max-width: 760px;
+    margin: 0 auto;
+
+    text-align: center;
+
 }
+
+
+/* ----------------------------------------------------------
+   Opening Reflection
+---------------------------------------------------------- */
 
 .intro-line {
-    margin: 0 0 0.65rem;
+
+    margin: 0 0 .65rem;
 
     font-family: "Cormorant Garamond", serif;
     font-size: clamp(1.75rem, 2.4vw, 2.05rem);
     font-weight: 400;
+
     line-height: 1.55;
-    letter-spacing: -0.01em;
+    letter-spacing: -.01em;
 
     color: #5d4636;
 
+}
+
+
+/* ----------------------------------------------------------
+   Supporting Copy
+---------------------------------------------------------- */
+
 .intro-paragraph {
+
     max-width: 40rem;
+
     margin: 4.5rem auto 2.5rem;
+
     font-size: 1.08rem;
     line-height: 2;
+
     color: #6f6258;
+
 }
+
 .intro-transition {
+
     max-width: 36rem;
 
     margin: 0 auto;
@@ -366,15 +424,24 @@ width: calc(100% - 140px);
 
 }
 
-.intro-paragraph{margin-top:3.25rem;margin-bottom:2rem;}
-.intro-transition{margin-bottom:0;}
 
-/* ----------------------------------------------------------
-   Animation
----------------------------------------------------------- */
+/* ==========================================================
+   FADE ANIMATION
+   ========================================================== */
 
-.fade-up{opacity:1;transform:none;}
-.fade-up.visible{opacity:1;transform:translateY(0);}
+.fade-up {
+
+    opacity: 1;
+    transform: none;
+
+}
+
+.fade-up.visible {
+
+    opacity: 1;
+    transform: translateY(0);
+
+}
 
 /* ----------------------------------------------------------
    Shared Room Architecture
