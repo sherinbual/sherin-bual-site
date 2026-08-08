@@ -828,7 +828,7 @@ body {
 .contact-hero {
   position: relative;
 
-  height: 54vh;
+  height: 62vh;
 
   margin-left: 140px;
   width: calc(100% - 140px);
@@ -841,7 +841,7 @@ body {
   height: 100%;
 
   object-fit: cover;
-  object-position: center 65%;
+  object-position: center 50%;
 
   display: block;
 
@@ -851,7 +851,6 @@ body {
     brightness(104%)
     contrast(94%);
 }
-
 .hero-text {
   position: absolute;
 
