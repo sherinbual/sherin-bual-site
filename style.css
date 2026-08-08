@@ -256,11 +256,10 @@ padding: 14rem 2rem 5rem;
    ========================================================== */
 
 .services-page {
-    background: url("beige-background.jpeg") center center / cover no-repeat;
+  color: #5d4636;
 
-    color: #5d4636;
+  font-family: "Cormorant Garamond", serif;
 
-    font-family: "Cormorant Garamond", serif;
 }
 
 
