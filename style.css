@@ -287,6 +287,25 @@ width: calc(100% - 140px);
     background:
         linear-gradient(rgba(245,236,226,.16),rgba(245,236,226,.16)),
         url("services-background.png") center/cover no-repeat;
+   .services-hero::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 140px;
+
+    background: linear-gradient(
+        to bottom,
+        rgba(239, 224, 200, 0),
+        rgba(239, 224, 200, 0.55) 45%,
+        rgba(239, 224, 200, 0.9) 80%,
+        #efe0c8 100%
+    );
+
+    pointer-events: none;
 }
 
 .services-heading{
