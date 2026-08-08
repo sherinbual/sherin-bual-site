@@ -326,8 +326,8 @@ width: calc(100% - 140px);
    Introduction
 ---------------------------------------------------------- */
 
-.services-intro{
-    padding:7rem 2rem;
+.services-intro {
+    padding: 5.5rem 2rem 7rem;
 }
 
 .intro-wrapper{
