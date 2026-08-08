@@ -270,7 +270,10 @@ width: calc(100% - 140px);
 
 .services-page {
     background: url("beige-background.jpeg") center center / cover no-repeat;
+
     color: #5d4636;
+
+    font-family: "Cormorant Garamond", serif;
 }
 
 
