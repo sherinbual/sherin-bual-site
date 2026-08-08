@@ -301,77 +301,104 @@ width: calc(100% - 140px);
     background-repeat: no-repeat;
 }
 
-.services-heading {
-    position: absolute;
-
-    left: 8%;
-    top: 34%;
-
-    z-index: 2;
-}
-
-.services-heading h1 {
-    margin: 0;
-
-    font-family: "Cormorant Garamond", serif;
-    font-size: 4.25rem;
-    font-weight: 400;
-    letter-spacing: .04em;
-
-    color: #5d4636;
-}
+/* ==========================================================
+   SERVICES
+   ========================================================== */
 
 
-/* ----------------------------------------------------------
-   Introduction
----------------------------------------------------------- */
+/* ==========================================================
+   SHARED CONTENT SECTIONS
+   ========================================================== */
 
-.services-intro {
-    padding: 8rem 2rem 7rem;
-}
-
-.intro-wrapper {
-    max-width: 720px;
+.services-section,
+.services-packages,
+.services-invitation {
+    position: relative;
+    width: min(760px, 90%);
     margin: 0 auto;
-
-    text-align: center;
+    padding: 7rem 0;
 }
 
-.intro-line {
-    margin: 0 0 1rem;
-
-    font-family: "Cormorant Garamond", serif;
-    font-size: 2rem;
-    line-height: 1.65;
-
-    color: #5d4636;
+.services-section + .services-section,
+.services-section + .services-packages,
+.services-packages + .services-invitation {
+    margin-top: 1rem;
 }
 
-.intro-paragraph {
-    margin: 3.5rem 0 2rem;
 
-    font-size: 1.08rem;
-    line-height: 2;
+/* ==========================================================
+   SECTION HEADERS
+   ========================================================== */
 
-    color: #6f6258;
+.section-header {
+    margin-bottom: 2.75rem;
 }
 
-.intro-transition {
+.section-header h2 {
     margin: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(2.2rem, 3vw, 3rem);
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: var(--heading-color);
+}
 
+.section-header p {
+    margin-top: 0.9rem;
+    max-width: 42rem;
+    font-size: 1.05rem;
+    line-height: 1.9;
+    color: var(--text-muted);
+}
+
+
+/* ==========================================================
+   SECTION CONTENT
+   ========================================================== */
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.section-content p {
+    margin: 0;
+    max-width: 42rem;
     font-size: 1.08rem;
-    line-height: 2;
-
-    color: #6f6258;
-}
-.fade-up {
-    opacity: 1;
-    transform: none;
+    line-height: 1.95;
+    color: var(--text-color);
 }
 
-.fade-up.visible {
-  opacity: 1;
-  transform: translateY(0);
+.section-content strong {
+    color: var(--heading-color);
+    font-weight: 600;
+}
+
+
+/* ==========================================================
+   SESSION DETAILS
+   ========================================================== */
+
+.session-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+
+    border-top: 1px solid rgba(93, 70, 54, 0.12);
+
+    font-size: 0.96rem;
+    color: var(--text-muted);
+}
+
+.session-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
 }
 .faq-hero {
   height: 88vh;
