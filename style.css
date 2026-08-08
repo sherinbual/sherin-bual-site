@@ -329,13 +329,26 @@ width: calc(100% - 140px);
 
 }
 
-.intro-paragraph,
-.intro-transition{
-    max-width:42rem;
-    margin-inline:auto;
-    font-size:1.08rem;
-    line-height:2;
-    color:#6f6258;
+.intro-paragraph {
+    max-width: 40rem;
+
+    margin: 3.75rem auto 2.5rem;
+
+    font-size: 1.08rem;
+    line-height: 2;
+
+    color: #6f6258;
+}
+.intro-transition {
+    max-width: 36rem;
+
+    margin: 0 auto;
+
+    font-size: 1.04rem;
+    line-height: 1.95;
+
+    color: #7b6c61;
+
 }
 
 .intro-paragraph{margin-top:3.25rem;margin-bottom:2rem;}
