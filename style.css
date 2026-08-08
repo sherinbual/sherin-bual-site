@@ -9,11 +9,17 @@ body {
   min-height: 100vh;
 
   background: linear-gradient(
-  90deg,
-  #f3eadf 0%,
-  #e1cba8 55%,
-  #b0946c 100%
-);
+    90deg,
+    #f3e6d5 0%,
+    #dfc8a4 50%,
+    #b49a72 100%
+  );
+
+  font-family: 'Inter', sans-serif;
+  color: #f5f1ea;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+}
   font-family: 'Inter', sans-serif;
   color: #f5f1ea;
   line-height: 1.8;
