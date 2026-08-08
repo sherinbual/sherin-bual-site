@@ -828,7 +828,7 @@ body {
 .contact-hero {
   position: relative;
 
-  height: 54vh;
+  height: 48vh;
 
   margin-left: 140px;
   width: calc(100% - 140px);
@@ -841,9 +841,7 @@ body {
       rgba(245,236,226,.10),
       rgba(245,236,226,.10)
     ),
-    url("contact.png") center 65% / cover no-repeat;
-
-  overflow: hidden;
+    url("contact.png") center bottom / cover no-repeat;
 }
 
 .hero-text {
