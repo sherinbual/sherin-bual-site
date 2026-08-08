@@ -685,7 +685,25 @@ padding: 14rem 2rem 5rem;
     padding-right:1.5rem;
 }
 }  
+.about-hero {
+  height: 52vh;
 
+  background-image: url('about-hero.png');
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center 90%;
+
+  display: flex;
+  align-items: center;
+
+  padding-left: 8%;
+
+  overflow: visible;
+
+  margin-left: 140px;
+  width: calc(100% - 140px);
+}
 .faq-hero {
   height: 54vh;
 
