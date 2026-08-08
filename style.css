@@ -432,7 +432,9 @@ width: calc(100% - 140px);
 }
 
 .section-content strong{color:#5d4636;font-weight:600;}
-
+.dream-work .section-header {
+    margin-bottom: 3.75rem;
+}
 .session-meta{
     display:flex;
     gap:1rem 2rem;
