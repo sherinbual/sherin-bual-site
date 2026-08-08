@@ -411,21 +411,35 @@ width: calc(100% - 140px);
    Supporting Copy
 ---------------------------------------------------------- */
 
-.intro-paragraph,
-.intro-transition {
+.intro-paragraph {
 
     max-width: 40rem;
 
-    margin-left: auto;
-    margin-right: auto;
+    margin: 5.5rem auto 2.5rem;
 
-    text-align: left;
+    text-align: center;
 
     font-size: 1.08rem;
     line-height: 2;
 
     color: #6f6258;
 
+}
+
+.intro-transition {
+
+    max-width: 36rem;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    font-size: 1.04rem;
+    line-height: 1.95;
+
+    color: #7b6c61;
+
+}
 }
 
 
