@@ -297,7 +297,7 @@ padding: 14rem 2rem 5rem;
             rgba(245,236,226,.16),
             rgba(245,236,226,.16)
         ),
-        url("services-background.png") center / cover no-repeat;
+       url("services-background.png") center 35% / cover no-repeat;
 
     overflow: hidden;
 }
