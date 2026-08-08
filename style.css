@@ -179,7 +179,7 @@ padding: 14rem 2rem 5rem;
   transform: translateX(3px);
 }
 .about-hero {
-  height: 56vh;
+  height: 54vh;
   background-image: url('about-hero.png');
   background-size: 100%;
 background-repeat: no-repeat;
