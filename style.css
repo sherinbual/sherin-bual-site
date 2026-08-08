@@ -827,23 +827,20 @@ body {
 
 .contact-hero {
   position: relative;
-
-  height: 62vh;
+  height: 54vh;
+  overflow: hidden;
 
   margin-left: 140px;
   width: calc(100% - 140px);
-
-  overflow: hidden;
 }
 
 .hero-image {
   width: 100%;
   height: 100%;
+  display: block;
 
   object-fit: cover;
-  object-position: center 50%;
-
-  display: block;
+  object-position: center center;
 
   filter:
     sepia(6%)
