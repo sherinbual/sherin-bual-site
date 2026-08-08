@@ -691,56 +691,7 @@ padding: 14rem 2rem 5rem;
 
 }
 
-.faq-heading {
-  position: absolute;
-  left: 80px;
-  top: 110px;
-  
-}
 
-.faq-heading h1 {
-  font-family: 'Cormorant Garamond', serif;
-
-  font-size: 4.2rem;
-
-  font-weight: 400;
-
-  letter-spacing: 2px;
-
-  color: #5d4636;
-}
-
-.faq-content {
-  background-image: url('beige-background.jpeg');
-
-  background-size: cover;
-  background-position: center;
-
-  padding: 120px 10%;
-}
-
-.faq-item {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.faq-item h2 {
-  font-family: 'Cormorant Garamond', serif;
-
-  font-size: 2.2rem;
-
-  color: #5d4636;
-
-  margin-bottom: 25px;
-}
-
-.faq-item p {
-  color: #705f52;
-
-  font-size: 1.05rem;
-
-  line-height: 1.9;
-}
 /* ==================================================
    FAQ PAGE
 ================================================== */
