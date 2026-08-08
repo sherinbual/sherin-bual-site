@@ -420,11 +420,12 @@ width: calc(100% - 140px);
     text-align: center;
 
     font-family: "Cormorant Garamond", serif;
-    font-size: clamp(1.45rem, 2vw, 1.65rem);
+    font-size: clamp(1.15rem, 1.5vw, 1.3rem);
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 1.65;
 
     color: #6a5a4d;
+
 
 }
 .intro-transition {
@@ -436,13 +437,11 @@ width: calc(100% - 140px);
     text-align: center;
 
     font-family: "Cormorant Garamond", serif;
-    font-size: clamp(1.35rem, 1.8vw, 1.5rem);
-    font-style: italic;
+    font-size: clamp(1.05rem, 1.35vw, 1.15rem);
     font-weight: 400;
-    line-height: 1.65;
+    line-height: 1.7;
 
     color: #7b6c61;
-
 
 }
 
