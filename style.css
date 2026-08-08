@@ -409,30 +409,7 @@ width: calc(100% - 140px);
     color: #6a5a4d;
 
 }
-/* ----------------------------------------------------------
-   Lotus Divider
----------------------------------------------------------- */
 
-.intro-divider {
-
-    display: flex;
-    justify-content: center;
-
-    margin: 3.5rem 0;
-
-}
-
-.intro-divider img {
-
-    width: 140px;
-    height: auto;
-
-    opacity: 0.22;
-
-    user-select: none;
-    pointer-events: none;
-
-}
 
 /* ----------------------------------------------------------
    Supporting Copy
