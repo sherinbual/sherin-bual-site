@@ -197,9 +197,11 @@ padding: 14rem 2rem 5rem;
 }
 
 .bio-section {
-background-image: url('beige-background.jpeg');
-background-size: cover;
-background-position: center;
+  background-image: url('beige-background.jpeg');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
   padding: 120px 10%;
 }
 
