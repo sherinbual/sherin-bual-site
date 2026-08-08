@@ -491,33 +491,7 @@ width: calc(100% - 140px);
 .services-invitation .primary-button{
     margin-top:1rem;
 }
-
-/* ----------------------------------------------------------
-   Responsive
----------------------------------------------------------- */
-
-@media (max-width:900px){
-
-.services-hero{
-    margin-left:0;
-    width:100%;
-    min-height:42vh;
-}
-
-.services-heading{
-    left:2rem;
-    top:50%;
-    transform:translateY(-50%);
-}
-
-.services-section,
-.services-packages,
-.services-invitation,
-.services-intro{
-    padding-left:1.5rem;
-    padding-right:1.5rem;
-}
-   /* ==========================================================
+ /* ==========================================================
    Services CTA
    ========================================================== */
 
@@ -556,6 +530,31 @@ width: calc(100% - 140px);
     transform: translateY(-2px);
 
     box-shadow: 0 10px 24px rgba(161,18,18,.12);
+}   
+/* ----------------------------------------------------------
+   Responsive
+---------------------------------------------------------- */
+
+@media (max-width:900px){
+
+.services-hero{
+    margin-left:0;
+    width:100%;
+    min-height:42vh;
+}
+
+.services-heading{
+    left:2rem;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.services-section,
+.services-packages,
+.services-invitation,
+.services-intro{
+    padding-left:1.5rem;
+    padding-right:1.5rem;
 }
 
 .faq-hero {
