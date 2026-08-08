@@ -316,12 +316,17 @@ width: calc(100% - 140px);
     text-align:center;
 }
 
-.intro-line{
-    margin:0 0 1rem;
-    font-family:"Cormorant Garamond",serif;
-    font-size:clamp(1.8rem,2.5vw,2.15rem);
-    line-height:1.65;
-    color:#5d4636;
+.intro-line {
+    margin: 0 0 0.65rem;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(1.75rem, 2.4vw, 2.05rem);
+    font-weight: 400;
+    line-height: 1.55;
+    letter-spacing: -0.01em;
+
+    color: #5d4636;
+
 }
 
 .intro-paragraph,
