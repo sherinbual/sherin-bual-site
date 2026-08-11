@@ -823,10 +823,12 @@ body {
 }
 
 .contact-copy p {
+  font-family: 'Cormorant Garamond', serif;
   color: #705f52;
-  font-size: 1.05rem;
-  line-height: 1.9;
+  font-size: 1.25rem;
+  line-height: 1.7;
   margin-bottom: 30px;
+
 }
 .contact-button {
   display: inline-block;
