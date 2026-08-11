@@ -981,7 +981,7 @@ body {
   height: 520px;
   margin-left: 140px;
 
-  background-image: url(booking-hero.png);
+  background-image: url("booking-hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
