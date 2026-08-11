@@ -950,3 +950,14 @@ body {
   transform: translateX(6px);
   opacity: 0.78;
 }
+.booking-content {
+  color: #6d5c4d;
+}
+
+.booking-content p {
+  color: #6d5c4d;
+}
+
+.booking-opening {
+  color: #4b3a2f;
+}
