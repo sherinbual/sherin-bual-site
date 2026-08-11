@@ -961,3 +961,8 @@ body {
 .booking-opening {
   color: #4b3a2f;
 }
+.booking-intro {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+}
