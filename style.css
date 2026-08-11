@@ -990,7 +990,7 @@ body {
 .booking-hero-text {
   position: absolute;
   left: 8%;
-  top: 50%;
+  top: 42%;
   transform: translateY(-50%);
 
   z-index: 2;
