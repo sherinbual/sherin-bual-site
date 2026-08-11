@@ -901,3 +901,33 @@ body {
 .contact-form button:hover {
   background: rgba(201, 135, 114, 0.12);
 }
+/* ==================================================
+   BOOKING PAGE
+================================================== */
+
+.booking-content {
+  margin-left: 140px;
+  width: calc(100% - 140px);
+  padding: 110px 10% 140px;
+  box-sizing: border-box;
+}
+
+.booking-intro {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.booking-intro p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #705f52;
+  margin: 0 0 30px;
+}
+
+.booking-intro .booking-opening {
+  font-size: 2.2rem;
+  line-height: 1.35;
+  color: #5d4636;
+  margin-bottom: 45px;
+}
