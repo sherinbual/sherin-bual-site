@@ -965,3 +965,10 @@ body {
   max-width: 850px;
   margin: 0 auto;
 }
+.booking-content {
+  font-family: "Inter", sans-serif;
+}
+
+.booking-opening {
+  font-family: "Cormorant Garamond", serif;
+}
