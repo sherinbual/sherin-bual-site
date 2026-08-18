@@ -103,10 +103,9 @@ p span {
   letter-spacing: 0;
 
   z-index: 20;
-}
 .handwritten-cta {
   opacity: 0;
-  animation: writeIn 8s ease-in-out 1.2s infinite;
+  animation: writeIn 15s ease-in-out 1.2s infinite;
 }
 
 @keyframes writeIn {
@@ -120,12 +119,12 @@ p span {
     clip-path: inset(0 0 0 0);
   }
 
-  70% {
+  80% {
     opacity: 1;
     clip-path: inset(0 0 0 0);
   }
 
-  85% {
+  93% {
     opacity: 0;
     clip-path: inset(0 0 0 0);
   }
