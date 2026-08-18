@@ -950,7 +950,7 @@ body {
 .booking-intro {
   width: 100%;
   max-width: 850px;
-  margin: 35px auto 0;
+  margin: 0 auto;
 }
 .booking-content {
   font-family: "Cormorant Garamond", serif;
