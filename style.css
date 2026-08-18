@@ -831,6 +831,10 @@ body {
   margin-bottom: 30px;
 
 }
+.message-intro br {
+  display: block;
+  margin-bottom: 8px;
+}
 .contact-button {
   display: inline-block;
   margin: 5px 0 35px;
