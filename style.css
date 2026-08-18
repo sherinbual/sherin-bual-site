@@ -1006,3 +1006,19 @@ body {
 
   color: #4b3a2f;
 }
+.booking-symbol {
+  display: block;
+  width: 28px;
+  height: 28px;
+  margin: 0 auto 10px;
+}
+
+.booking-symbol svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #9a8061;
+  stroke-width: 1.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
