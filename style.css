@@ -831,9 +831,8 @@ body {
   margin-bottom: 30px;
 
 }
-.message-intro br {
-  display: block;
-  margin-bottom: 8px;
+.message-intro {
+  line-height: 1.9;
 }
 .contact-button {
   display: inline-block;
