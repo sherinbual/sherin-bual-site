@@ -124,6 +124,10 @@ p span {
     opacity 0.5s ease;
 
   z-index: 20;
+ .handwritten-cta {
+  font-family: 'Caveat', cursive;
+  text-transform: none;
+}
 }
 .cta-button:hover {
   transform: translateX(-50%) translateY(-2px);
