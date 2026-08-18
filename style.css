@@ -118,6 +118,7 @@ p span {
     opacity: 1;
     clip-path: inset(0 0 0 0);
   }
+  }
 
 .side-menu {
   position: fixed;
