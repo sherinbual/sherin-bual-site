@@ -118,22 +118,6 @@ p span {
     opacity: 1;
     clip-path: inset(0 0 0 0);
   }
-}
-  position: absolute;
-  bottom: 225px;
-  left: 50%;
-  transform: translateX(-50%);
-
-  font-family: 'Caveat', cursive;
-  font-size: 2.2rem;
-  font-weight: 400;
-
-  color: #8a5a43;
-
-  text-decoration: none;
-
-  z-index: 20;
-}
 
 .side-menu {
   position: fixed;
