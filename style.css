@@ -105,8 +105,8 @@ p span {
   z-index: 20;
 }
 .handwritten-cta {
- opacity: 0;
-  animation: writeIn 2.5s ease-out 1.2s forwards;
+  opacity: 0;
+  animation: writeIn 3s ease-out 1.2s infinite;
 }
  @keyframes writeIn {
   from {
