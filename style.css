@@ -105,6 +105,20 @@ p span {
   z-index: 20;
 }
 .handwritten-cta {
+ opacity: 0;
+  animation: writeIn 2.5s ease-out 1.2s forwards;
+}
+ @keyframes writeIn {
+  from {
+    opacity: 0;
+    clip-path: inset(0 100% 0 0);
+  }
+
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
   position: absolute;
   bottom: 225px;
   left: 50%;
