@@ -1028,7 +1028,7 @@ body {
 }
 
 .booking-image {
-  width: 120px;
+  width: 80px;
   height: auto;
   object-fit: contain;
   flex-shrink: 0;
