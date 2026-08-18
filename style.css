@@ -1022,3 +1022,19 @@ body {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
+.booking-option {
+  display: flex;
+  align-items: center;
+}
+
+.booking-image {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin-right: 35px;
+}
+
+.booking-details {
+  text-align: left;
+}
