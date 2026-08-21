@@ -485,7 +485,7 @@ padding: 14rem 2rem 5rem;
 
 .section-header h2{
     margin:0;
-    font:400 clamp(2rem,2.5vw,2.65rem) "Cormorant Garamond",serif;
+    font: 400 clamp(2.1rem, 2.6vw, 2.75rem) "Cormorant Garamond", serif;
 }
  
 .section-subtitle{
