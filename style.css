@@ -562,6 +562,19 @@ padding: 14rem 2rem 5rem;
     border-top:1px solid rgba(93,70,54,.10);
 }
 
+.package-tier p{
+    max-width:42rem;
+    line-height:1.95;
+    color:#6f6258;
+}
+
+.package-tier h3,
+.package-note h3{
+    margin:0 0 .5rem;
+    font:400 1.9rem "Cormorant Garamond",serif;
+    color:#5d4636;
+}
+
 .package-tier h3,
 .package-note h3{
     margin:0 0 .5rem;
