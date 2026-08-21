@@ -357,8 +357,7 @@ padding: 14rem 2rem 5rem;
     padding: 5.5rem 2rem 4rem;
 }
 
-.services-intro::before {
-    content: "";
+.intro-light {
     position: absolute;
     inset: 0;
     background: radial-gradient(
@@ -368,8 +367,19 @@ padding: 14rem 2rem 5rem;
         rgba(255,250,243,0) 78%
     );
     pointer-events: none;
+    opacity: .75;
+    animation: introLight 12s ease-in-out infinite;
 }
-   
+
+@keyframes introLight {
+    0%, 100% {
+        opacity: .68;
+    }
+
+    50% {
+        opacity: .92;
+    }
+}
 
 .intro-wrapper {
     position: relative;
