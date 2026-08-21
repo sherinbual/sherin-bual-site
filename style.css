@@ -354,7 +354,9 @@ padding: 14rem 2rem 5rem;
 .services-intro {
     padding: 5.5rem 2rem 4rem;
 }
-
+.services-intro + .services-section {
+    padding-top: 3rem;
+}
 .intro-wrapper {
 
     max-width: 760px;
