@@ -356,6 +356,13 @@ padding: 14rem 2rem 5rem;
     padding: 5.5rem 2rem 4rem;
 }
 
+.services-intro {
+    position: relative;
+    overflow: hidden;
+    padding: 5.5rem 2rem 4rem;
+    animation: introTest 3s ease-in-out infinite;
+}
+
 .services-intro::before {
     content: "";
     position: absolute;
@@ -366,13 +373,12 @@ padding: 14rem 2rem 5rem;
         rgba(255,250,243,.24) 45%,
         rgba(255,250,243,0) 78%
     );
-    animation: introLight 3s ease-in-out infinite;
     pointer-events: none;
 }
 
-@keyframes introLight {
+@keyframes introTest {
     0%, 100% {
-        opacity: 0.3;
+        opacity: 0.5;
     }
 
     50% {
@@ -391,7 +397,6 @@ padding: 14rem 2rem 5rem;
 .services-intro + .services-section {
     padding-top: 3rem;
 }
-
 /* ----------------------------------------------------------
    Opening Reflection
 ---------------------------------------------------------- */
