@@ -356,13 +356,6 @@ padding: 14rem 2rem 5rem;
     padding: 5.5rem 2rem 4rem;
 }
 
-.services-intro {
-    position: relative;
-    overflow: hidden;
-    padding: 5.5rem 2rem 4rem;
-    animation: introTest 3s ease-in-out infinite;
-}
-
 .services-intro::before {
     content: "";
     position: absolute;
@@ -374,15 +367,17 @@ padding: 14rem 2rem 5rem;
         rgba(255,250,243,0) 78%
     );
     pointer-events: none;
+    opacity: .75;
+    animation: introLight 10s ease-in-out infinite;
 }
 
-@keyframes introTest {
+@keyframes introLight {
     0%, 100% {
-        opacity: 0.5;
+        opacity: .65;
     }
 
     50% {
-        opacity: 1;
+        opacity: .95;
     }
 }
 
