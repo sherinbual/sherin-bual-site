@@ -521,16 +521,21 @@ padding: 14rem 2rem 5rem;
         rgba(255,255,255,0));
     z-index:-1;
 }
+
 /* ----------------------------------------------------------
    Dream Work
 ---------------------------------------------------------- */
 
 .dream-work{
+    position:relative;
+}
+
 /* Dream Work breathes a little more */
 
 .dream-work .section-content {
     gap: 2.35rem;
 }
+
 .section-content p{
     margin:0;
     max-width:42rem;
@@ -539,10 +544,15 @@ padding: 14rem 2rem 5rem;
     color:#6f6258;
 }
 
-.section-content strong{color:#5d4636;font-weight:600;}
+.section-content strong{
+    color:#5d4636;
+    font-weight:600;
+}
+
 .dream-work .section-header {
     margin-bottom: 3.75rem;
 }
+
 .session-meta{
     display:flex;
     gap:1rem 2rem;
@@ -556,7 +566,6 @@ padding: 14rem 2rem 5rem;
     color:#7d6d60;
     font-size:.96rem;
 }
-
 /* ----------------------------------------------------------
    Dream Work
 ---------------------------------------------------------- */
