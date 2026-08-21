@@ -350,7 +350,6 @@ padding: 14rem 2rem 5rem;
 /* ==========================================================
    INTRODUCTION
    ========================================================== */
-
 .services-intro {
     position: relative;
     overflow: hidden;
@@ -367,18 +366,16 @@ padding: 14rem 2rem 5rem;
         rgba(255,250,243,.24) 45%,
         rgba(255,250,243,0) 78%
     );
-    animation: introLight 14s ease-in-out infinite;
+    animation: introLight 6s ease-in-out infinite;
     pointer-events: none;
 }
 
 @keyframes introLight {
     0%, 100% {
-        transform: scale(1);
-        opacity: 0.5;
+        opacity: 0.3;
     }
 
     50% {
-        transform: scale(1.15);
         opacity: 1;
     }
 }
