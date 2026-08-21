@@ -103,6 +103,8 @@ p span {
   letter-spacing: 0;
 
   z-index: 20;
+  }
+ 
 .handwritten-cta {
   opacity: 0;
   animation: writeIn 15s ease-in-out 1.2s infinite;
