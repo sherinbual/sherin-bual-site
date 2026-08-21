@@ -500,10 +500,12 @@ padding: 14rem 2rem 5rem;
     color:#6f6258;
 }
 
-.section-content{
-    display:flex;
-    flex-direction:column;
-    gap:1.75rem;
+.section-content p{
+    margin:0;
+    max-width:42rem;
+    font-size:1.18rem;
+    line-height:1.9;
+    color:#6f6258;
 }
 /* ----------------------------------------------------------
    Life Coaching
