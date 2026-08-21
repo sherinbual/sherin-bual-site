@@ -368,19 +368,8 @@ padding: 14rem 2rem 5rem;
         rgba(255,250,243,0) 78%
     );
     pointer-events: none;
-    opacity: .75;
-    animation: introLight 10s ease-in-out infinite;
 }
-
-@keyframes introLight {
-    0%, 100% {
-        opacity: .65;
-    }
-
-    50% {
-        opacity: .95;
-    }
-}
+   
 
 .intro-wrapper {
     position: relative;
