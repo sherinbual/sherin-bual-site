@@ -352,20 +352,35 @@ padding: 14rem 2rem 5rem;
    ========================================================== */
 
 .services-intro {
+    position: relative;
+    overflow: hidden;
     padding: 5.5rem 2rem 4rem;
 }
+
+.services-intro::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(255,250,243,.42) 0%,
+        rgba(255,250,243,.24) 45%,
+        rgba(255,250,243,0) 78%
+    );
+    pointer-events: none;
+}
+
+.intro-wrapper {
+    position: relative;
+    z-index: 1;
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .services-intro + .services-section {
     padding-top: 3rem;
 }
-.intro-wrapper {
-
-    max-width: 760px;
-    margin: 0 auto;
-
-    text-align: center;
-
-}
-
 
 /* ----------------------------------------------------------
    Opening Reflection
