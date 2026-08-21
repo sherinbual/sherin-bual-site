@@ -502,6 +502,30 @@ padding: 14rem 2rem 5rem;
     flex-direction:column;
     gap:1.75rem;
 }
+/* ----------------------------------------------------------
+   Life Coaching
+---------------------------------------------------------- */
+
+.life-coaching{
+    position:relative;
+}
+
+.life-coaching::before{
+    content:"";
+    position:absolute;
+    inset:2rem 0;
+    background:linear-gradient(to bottom,
+        rgba(255,255,255,0),
+        rgba(255,250,246,.22) 18%,
+        rgba(255,250,246,.22) 82%,
+        rgba(255,255,255,0));
+    z-index:-1;
+}
+/* ----------------------------------------------------------
+   Dream Work
+---------------------------------------------------------- */
+
+.dream-work{
 /* Dream Work breathes a little more */
 
 .dream-work .section-content {
