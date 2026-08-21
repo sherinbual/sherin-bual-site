@@ -366,7 +366,7 @@ padding: 14rem 2rem 5rem;
         rgba(255,250,243,.24) 45%,
         rgba(255,250,243,0) 78%
     );
-    animation: introLight 6s ease-in-out infinite;
+    animation: introLight 3s ease-in-out infinite;
     pointer-events: none;
 }
 
