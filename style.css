@@ -374,11 +374,11 @@ padding: 14rem 2rem 5rem;
 @keyframes introLight {
     0%, 100% {
         transform: scale(1);
-        opacity: 0.85;
+        opacity: 0.5;
     }
 
     50% {
-        transform: scale(1.04);
+        transform: scale(1.15);
         opacity: 1;
     }
 }
