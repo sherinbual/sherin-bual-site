@@ -481,8 +481,6 @@ padding: 14rem 2rem 5rem;
 
 .section-header{margin-bottom:3rem;}
 
-}
-
 .section-header h2{
     margin:0;
     font: 400 clamp(2.4rem, 2.9vw, 3rem) "Cormorant Garamond", serif;
