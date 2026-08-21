@@ -490,6 +490,10 @@ padding: 14rem 2rem 5rem;
     letter-spacing: -0.02em;
     color: #5d4636;
 }
+
+.section-header h2 {
+    color: red !important;
+}
  
 .section-subtitle{
     margin-top:1rem;
