@@ -64,7 +64,7 @@ h1, h2, h3, h4 {
 
   position: absolute;
 
-  top: 50%;
+  top: 45%;
   left: 50%;
 
   transform: translate(-50%, -50%);
@@ -90,7 +90,7 @@ p span {
 .hero-tagline {
   font-style: italic;
   position: absolute;
-  bottom: 220px;
+  bottom: 255px;
   left: 50%;
   transform: translateX(-50%);
 
@@ -152,7 +152,7 @@ p span {
 }
 .cta-button {
   position: absolute;
-  bottom: 135px;
+  bottom: 170px;
   left: 50%;
   transform: translateX(-50%);
 
