@@ -104,13 +104,13 @@ p span {
   font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: 0.02em;
-  color: #5d4636;
+  color: #7d6b5c;
 
   z-index: 20;
 }
 
 .hero-tagline .key-word {
-  color: #7d6b5c;
+  color: #a11212;
 }
 .hero-tagline span {
   opacity: 0;
