@@ -89,7 +89,7 @@ p span {
 }
 .hero-tagline {
   position: absolute;
-  bottom: 285px;
+  bottom: 220px;
   left: 50%;
   transform: translateX(-50%);
 
@@ -148,7 +148,7 @@ p span {
 }
 .cta-button {
   position: absolute;
-  bottom: 190px;
+  bottom: 135px;
   left: 50%;
   transform: translateX(-50%);
 
