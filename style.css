@@ -127,6 +127,9 @@ p span {
 
 .hero-tagline span:nth-child(3) {
   animation-delay: 2.2s;
+ }
+ .hero-tagline .if-word {
+  font-style: normal;
 }
 
 @keyframes taglineReveal {
