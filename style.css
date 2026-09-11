@@ -938,6 +938,49 @@ body {
 
   margin: 0;
 }
+.faq-item details {
+  width: 100%;
+}
+
+.faq-item summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary span:first-child {
+  flex: 1;
+}
+
+.faq-toggle {
+  flex: 0 0 auto;
+  margin-left: 2rem;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.faq-answer {
+  padding-top: 1.5rem;
+}
+
+.faq-item details[open] .faq-toggle {
+  font-size: 0;
+}
+
+.faq-item details[open] .faq-toggle::after {
+  content: "−";
+  font-size: 1.4rem;
+}
 /* ==================================================
    CONTACT PAGE CONTENT
 ================================================== */
