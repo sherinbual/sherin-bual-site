@@ -1216,8 +1216,8 @@ body {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 22px;
+  align-items: start;
 }
-
 .services-offerings .services-section {
   margin: 0;
   padding: 42px 42px 36px;
