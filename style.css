@@ -945,8 +945,7 @@ body {
 .faq-item summary {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-
+  justify-content: flex-start;
   cursor: pointer;
   list-style: none;
 }
@@ -962,7 +961,7 @@ body {
 
 .faq-toggle {
   flex: 0 0 auto;
-  margin-left: 2rem;
+  margin-left: 1.25rem;
 
   font-family: 'Inter', sans-serif;
   font-size: 1.4rem;
