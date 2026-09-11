@@ -955,10 +955,9 @@ body {
 }
 
 .faq-item summary span:first-child {
-  flex: 1;
+  flex: 0 1 auto;
   color: #5d4636;
 }
-
 .faq-toggle {
   flex: 0 0 auto;
   margin-left: 1.25rem;
