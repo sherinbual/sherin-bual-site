@@ -321,7 +321,516 @@ padding: 14rem 2rem 5rem;
 
   letter-spacing: 0.12em;
   text-transform: uppercase;
+}
+/* ==========================================================
+   SERVICES PAGE
+   ========================================================== */
 
+.services-page {
+  color: #5d4636;
+
+  font-family: "Cormorant Garamond", serif;
+
+}
+
+
+/* ==========================================================
+   HERO
+   ========================================================== */
+
+.services-hero {
+    position: relative;
+
+    min-height: 60vh;
+
+    margin-left: 140px;
+    width: calc(100% - 140px);
+
+    display: flex;
+    align-items: center;
+
+    background:
+        linear-gradient(
+            rgba(245,236,226,.16),
+            rgba(245,236,226,.16)
+        ),
+       url("services-background.png") center 35% / cover no-repeat;
+
+    overflow: hidden;
+}
+
+
+/* ----------------------------------------------------------
+   Hero Title
+---------------------------------------------------------- */
+
+.services-heading {
+    position: absolute;
+    left: 5%;
+    top: 55%;   
+    z-index: 2;
+}
+
+.services-heading h1 {
+    margin: 0;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 4.2rem;
+    font-weight: 400;
+
+    letter-spacing: .04em;
+    line-height: 1;
+
+   color: #5d4636;
+}
+/* ----------------------------------------------------------
+   Hero Threshold
+---------------------------------------------------------- */
+
+.services-hero::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 90px;
+
+    background: linear-gradient(
+        to bottom,
+        rgba(239,224,200,0) 0%,
+        rgba(239,224,200,.35) 65%,
+        rgba(239,224,200,.75) 100%
+    );
+
+    pointer-events: none;
+}
+
+
+/* ==========================================================
+   INTRODUCTION
+   ========================================================== */
+
+.services-intro {
+    position: relative;
+    overflow: hidden;
+    padding: 5.5rem 2rem 4rem;
+}
+
+.intro-light {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(255,250,243,.42) 0%,
+        rgba(255,250,243,.24) 45%,
+        rgba(255,250,243,0) 78%
+    );
+    pointer-events: none;
+    opacity: .75;
+    animation: introLight 12s ease-in-out infinite;
+}
+
+@keyframes introLight {
+    0%, 100% {
+        opacity: .68;
+    }
+
+    50% {
+        opacity: .92;
+    }
+}
+
+.intro-wrapper {
+    position: relative;
+    z-index: 1;
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services-intro + .services-section {
+    padding-top: 3rem;
+}
+/* ----------------------------------------------------------
+   Opening Reflection
+---------------------------------------------------------- */
+
+.intro-line {
+    margin: 0 0 .9rem;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(1.85rem, 2.5vw, 2.2rem);
+    font-weight: 400;
+
+    line-height: 1.55;
+    letter-spacing: -0.01em;
+
+    color: #5d4636;
+}
+.intro-line-secondary {
+
+    margin: 0 0 .8rem;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(1.4rem, 1.9vw, 1.6rem);
+    font-style: italic;
+    font-weight: 400;
+
+    line-height: 1.65;
+    letter-spacing: -0.01em;
+
+    color: #6a5a4d;
+
+}
+
+
+/* ----------------------------------------------------------
+   Supporting Copy
+---------------------------------------------------------- */
+
+.intro-paragraph {
+
+    max-width: 42rem;
+
+    margin: 4.75rem auto 2.75rem;
+
+    text-align: center;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.45rem;
+    font-weight: 400;
+    line-height: 1.6;
+
+    color: #6f6258;
+
+}
+
+.intro-transition {
+
+    max-width: 42rem;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.45rem;
+    font-weight: 400;
+    line-height: 1.6;
+
+    color: #6f6258;
+
+}
+
+
+/* ==========================================================
+   FADE ANIMATION
+   ========================================================== */
+
+.fade-up {
+
+    opacity: 1;
+    transform: none;
+
+}
+
+.fade-up.visible {
+
+    opacity: 1;
+    transform: translateY(0);
+
+}
+
+/* ----------------------------------------------------------
+   Shared Room Architecture
+---------------------------------------------------------- */
+
+.services-section,
+.services-packages,
+.services-invitation{
+    max-width:760px;
+    margin:0 auto;
+    padding:7rem 2rem;
+    box-sizing:border-box;
+}
+
+.services-section + .services-section,
+.services-section + .services-packages,
+.services-packages + .services-invitation{
+    padding-top:2rem;
+}
+
+.section-header{margin-bottom:3rem;}
+
+.section-header h2{
+    margin: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: #5d4636;
+}
+
+.services-packages .section-header h2 {
+    font-size: 2rem;
+}
+ 
+.section-subtitle{
+    margin-top:1.4rem;
+    max-width:42rem;
+    font-size:1.08rem;
+    font-style: italic;
+    line-height:1.9;
+    color:#6f6258;
+}
+
+.section-content p{
+    margin:0;
+    max-width:42rem;
+    font-size:1.18rem;
+    line-height:1.9;
+    color:#6f6258;
+}
+/* ----------------------------------------------------------
+   Life Coaching
+---------------------------------------------------------- */
+
+.life-coaching{
+    position:relative;
+}
+
+.life-coaching::before{
+    content:"";
+    position:absolute;
+    inset:2rem 0;
+    background:linear-gradient(to bottom,
+        rgba(255,255,255,0),
+        rgba(255,250,246,.22) 18%,
+        rgba(255,250,246,.22) 82%,
+        rgba(255,255,255,0));
+    z-index:-1;
+}
+
+/* ----------------------------------------------------------
+   Dream Work
+---------------------------------------------------------- */
+
+.dream-work{
+    position:relative;
+}
+
+/* Dream Work breathes a little more */
+
+.dream-work .section-content {
+    gap: 2.35rem;
+}
+
+.section-content p{
+    margin:0;
+    max-width:42rem;
+    font-size:1.08rem;
+    line-height:1.95;
+    color:#6f6258;
+}
+
+.section-content strong{
+    color:#5d4636;
+    font-weight:600;
+}
+
+.dream-work .section-header {
+    margin-bottom: 3.75rem;
+}
+
+.session-meta{
+    display:flex;
+    gap:1rem 2rem;
+    flex-wrap:wrap;
+    margin-top:2.75rem;
+    padding-top:2rem;
+    border-top:1px solid rgba(93,70,54,.12);
+}
+
+.session-meta span{
+    color:#7d6d60;
+    font-size:.96rem;
+}
+/* ----------------------------------------------------------
+   Dream Work
+---------------------------------------------------------- */
+}
+
+.dream-work{
+    position:relative;
+}
+
+.dream-work::before{
+    content:"";
+    position:absolute;
+    inset:2rem 0;
+    background:linear-gradient(to bottom,
+        rgba(255,255,255,0),
+        rgba(255,250,246,.45) 18%,
+        rgba(255,250,246,.45) 82%,
+        rgba(255,255,255,0));
+    z-index:-1;
+}
+.services-packages{
+    position:relative;
+}
+
+.services-packages::before{
+    content:"";
+    position:absolute;
+    inset:2rem 0;
+    background:linear-gradient(to bottom,
+        rgba(255,255,255,0),
+        rgba(255,250,246,.25) 18%,
+        rgba(255,250,246,.25) 82%,
+        rgba(255,255,255,0));
+    z-index:-1;
+}
+/* ----------------------------------------------------------
+   Packages
+---------------------------------------------------------- */
+
+.package-tier{
+    padding:2rem 0;
+    border-top:1px solid rgba(93,70,54,.10);
+}
+
+.package-tier p{
+    max-width:42rem;
+    line-height:1.95;
+    color:#6f6258;
+}
+
+.package-tier h3,
+.package-note h3{
+    margin:0 0 .5rem;
+    font:400 1.9rem "Cormorant Garamond",serif;
+    color:#5d4636;
+}
+
+.package-tier h3,
+.package-note h3{
+    margin:0 0 .5rem;
+    font:400 1.9rem "Cormorant Garamond",serif;
+    color:#5d4636;
+}
+
+.package-price{
+    margin:.25rem 0;
+    font-size:1.3rem;
+    font-weight:600;
+    color:#5d4636;
+}
+
+.package-savings{
+    margin-bottom:1.25rem;
+    color:#8a7565;
+    font-style:italic;
+}
+
+.package-note{
+    margin-top:3rem;
+    padding-top:2.5rem;
+    border-top:1px solid rgba(93,70,54,.12);
+}
+
+.package-note p{
+    max-width:42rem;
+    line-height:1.95;
+    color:#6f6258;
+}
+
+/* ----------------------------------------------------------
+   Final Invitation
+---------------------------------------------------------- */
+
+.services-invitation{
+    text-align:center;
+    padding-bottom:8rem;
+}
+
+.services-invitation .section-content{
+    align-items:center;
+}
+
+.services-invitation p{
+    max-width:38rem;
+
+}
+ /* ==========================================================
+   Services CTA
+   ========================================================== */
+
+.services-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2rem;
+    padding: 1rem 2.5rem;
+
+    border: 1px solid rgba(161, 18, 18, 0.28);
+    border-radius: 999px;
+
+    background: rgba(161, 18, 18, 0.06);
+
+    color: #a11212;
+
+    font-family: "Inter", sans-serif;
+    font-size: 0.82rem;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition:
+        background .35s ease,
+        transform .35s ease,
+        box-shadow .35s ease,
+        color .35s ease;
+}
+
+.services-button:hover {
+    background: rgba(161, 18, 18, 0.11);
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 10px 24px rgba(161,18,18,.12);
+}   
+/* ----------------------------------------------------------
+   Responsive
+---------------------------------------------------------- */
+
+@media (max-width:900px){
+
+.services-hero{
+    margin-left:0;
+    width:100%;
+    min-height:42vh;
+}
+
+.services-heading{
+    left:2rem;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.services-section,
+.services-packages,
+.services-invitation,
+.services-intro{
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+}
 }  
 .about-hero {
   height: 60vh;
@@ -661,76 +1170,6 @@ body {
 
 .booking-details {
   text-align: left;
-}
-/* ==========================================================
-   SERVICES PAGE — BASE
-   ========================================================== */
-
-.services-page {
-  color: #5d4636;
-  font-family: "Cormorant Garamond", serif;
-}
-
-/* ---------- Hero ---------- */
-
-.services-hero {
-  position: relative;
-  min-height: 60vh;
-  margin-left: 140px;
-  width: calc(100% - 140px);
-
-  display: flex;
-  align-items: center;
-
-  background:
-    linear-gradient(
-      rgba(245,236,226,.16),
-      rgba(245,236,226,.16)
-    ),
-    url("services-background.png") center 35% / cover no-repeat;
-
-  overflow: hidden;
-}
-
-/* ---------- Hero Title ---------- */
-
-.services-heading {
-  position: absolute;
-  left: 5%;
-  top: 55%;
-  z-index: 2;
-}
-
-.services-heading h1 {
-  margin: 0;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 4.2rem;
-  font-weight: 400;
-  letter-spacing: .04em;
-  line-height: 1;
-  color: #5d4636;
-}
-
-/* ---------- Hero Threshold ---------- */
-
-.services-hero::after {
-  content: "";
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-
-  height: 90px;
-
-  background: linear-gradient(
-    to bottom,
-    rgba(239,224,200,0) 0%,
-    rgba(239,224,200,.35) 65%,
-    rgba(239,224,200,.75) 100%
-  );
-
-  pointer-events: none;
 }
 /* =========================================
    SERVICES PAGE — REFINED LAYOUT
