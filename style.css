@@ -1390,14 +1390,22 @@ body {
   font-weight: 400;
 }
 
-.dream-series .dream-series-meta {
+.dream-series .dream-series-intro {
   margin-bottom: 18px;
+  font-family: 'Cormorant Garamond', serif;
   font-style: italic;
+  color: #6f6258;
 }
 
 .dream-series p {
   margin: 8px 0;
   line-height: 1.6;
+}
+
+.dream-series .dream-series-meta {
+  margin-top: 22px;
+  font-size: 1rem;
+  color: #6f6258;
 }
 
 
