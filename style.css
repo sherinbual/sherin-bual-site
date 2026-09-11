@@ -1222,6 +1222,7 @@ body {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 22px;
   align-items: start;
+ transform: translateX(20px);
 }
 .services-offerings .services-section {
   margin: 0;
@@ -1266,7 +1267,6 @@ body {
   gap: 42px;
 
   font-size: 1rem;
- transform: translateX(20px);
 }
 
 
