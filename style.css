@@ -1245,10 +1245,13 @@ body {
   flex: 1;
 }
 
-.services-offerings .section-content p {
-  margin-bottom: 20px;
+.section-content p {
+    margin: 0;
+    max-width: 42rem;
+    font-size: 1.08rem;
+    line-height: 1.75;
+    color: #6f6258;
 }
-
 .services-offerings .session-meta {
   margin-top: 28px;
   padding-top: 20px;
