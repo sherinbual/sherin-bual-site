@@ -1204,9 +1204,9 @@ body {
   font-size: 1.25rem;
 }
 .intro-transition {
-  margin: 0;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.3rem;
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
   line-height: 1.55;
 }
 
