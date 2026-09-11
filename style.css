@@ -1309,7 +1309,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   max-width: 900px;
-  margin: 0 auto;
+  margin: 70px auto 0;
 }
 
 .package-tier {
