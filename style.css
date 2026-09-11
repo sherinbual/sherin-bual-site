@@ -1186,8 +1186,13 @@ body {
   margin: 0 0 22px;
 }
 
-.intro-poetry {
-  margin-bottom: 24px;
+.intro-poetry p {
+  margin: 8px 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.55rem;
+  font-style: italic;
+  line-height: 1.4;
+  color: #6f6258;
 }
 
 .intro-paragraph {
