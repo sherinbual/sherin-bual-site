@@ -1010,10 +1010,12 @@ body {
 }
 
 .faq-item summary::before {
-  content: "🪷";
-  font-size: 1.35rem;
+  content: "";
+  width: 34px;
+  height: 26px;
   margin-right: 1rem;
-  color: #b89c7a;
+  flex: 0 0 34px;
+  background: url('lotus-outline.svg') center / contain no-repeat;
 }
 .faq-item summary::marker {
   display: none;
