@@ -294,6 +294,12 @@ padding: 14rem 2rem 5rem;
   color: #4b3a2e;
   letter-spacing: 0.01em;
 }
+.about-emphasis {
+  font-size: 2.2rem;
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 2.8rem;
+}
    .bio-text blockquote {
   margin: 5rem auto;
   padding: 0;
