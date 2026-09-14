@@ -1006,6 +1006,7 @@ body {
 }
 
 .faq-item summary::marker {
+  display: none;
   content: "";
 }
 
@@ -1017,10 +1018,7 @@ body {
   flex: 0 0 34px;
   background: url('lotus-outline.svg') center / contain no-repeat;
 }
-.faq-item summary::marker {
-  display: none;
-  content: "";
-}
+
 .faq-item {
   margin-bottom: 2.2rem;
 }
