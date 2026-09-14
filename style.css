@@ -959,11 +959,11 @@ body {
 }
 
 .faq-item summary {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  cursor: pointer;
-  list-style: none;
+  color: #5d4636;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.2;
 }
 
 .faq-item summary::-webkit-details-marker {
