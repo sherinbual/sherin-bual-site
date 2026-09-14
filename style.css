@@ -305,7 +305,11 @@ padding: 14rem 2rem 5rem;
 .bio-text p.about-emphasis {
   font-size: 1.3rem;
   color: #4b3a2e;
+ }
+ .bio-text p.about-emphasis {
+  font-weight: 600;
 }
+
    .bio-text blockquote {
   margin: 5rem auto;
   padding: 0;
