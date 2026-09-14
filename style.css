@@ -274,10 +274,9 @@ padding: 14rem 2rem 5rem;
 }
 
  .bio-text {
-    max-width: 760px;
-
+  max-width: 760px;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 2rem;
+  font-size: 2.1rem;
   line-height: 1.7;
   color: #5d4636;
 }
