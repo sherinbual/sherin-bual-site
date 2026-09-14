@@ -966,10 +966,6 @@ body {
   line-height: 1.2;
 }
 
-.faq-item summary::-webkit-details-marker {
-  display: none;
-}
-
 .faq-item summary span:first-child {
   flex: 0 1 auto;
   color: #5d4636;
