@@ -1006,6 +1006,16 @@ body {
 }
 
 .faq-item summary::marker {
+  content: "";
+}
+
+.faq-item summary::before {
+  content: "🪷";
+  font-size: 1.35rem;
+  margin-right: 1rem;
+  color: #b89c7a;
+}
+.faq-item summary::marker {
   display: none;
   content: "";
 }
