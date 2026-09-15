@@ -505,7 +505,7 @@ padding: 14rem 2rem 5rem;
 }
 
 .intro-poetry p:nth-child(1) {
-    right: -140px;
+    right: 140px;
 }
 
 .intro-poetry p:nth-child(2) {
