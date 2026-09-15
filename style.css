@@ -426,7 +426,7 @@ padding: 14rem 2rem 5rem;
    DUCTION
    ========================================================== */
 
-.services- {
+.services-intro {
     position: relative;
     overflow: hidden;
     padding: 5.5rem 2rem 4rem;
@@ -464,7 +464,7 @@ padding: 14rem 2rem 5rem;
     text-align: center;
 }
 
-.services- + .services-section {
+.services-intro + .services-section {
     padding-top: 3rem;
 }
 /* ----------------------------------------------------------
