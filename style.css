@@ -510,7 +510,7 @@ padding: 14rem 2rem 5rem;
 
 .intro-poetry p:nth-child(2) {
     left: 140px;
-    animation-delay: 4s;
+    animation-delay: 2s;
 }
 
 @keyframes poetryFade {
