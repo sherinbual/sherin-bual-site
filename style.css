@@ -1015,10 +1015,10 @@ body {
 
 .faq-item summary::before {
   content: "";
-  width: 34px;
-  height: 26px;
+  width: 40px;
+  height: 30px;
   margin-right: 1rem;
-  flex: 0 0 34px;
+  flex: 0 0 40px;
   background: url('lotus-outline.svg') center / contain no-repeat;
 }
 
