@@ -505,11 +505,11 @@ padding: 14rem 2rem 5rem;
 }
 
 .intro-poetry p:nth-child(1) {
-    right: 35px;
+    right: 65px;
 }
 
 .intro-poetry p:nth-child(2) {
-    left: 35px;
+    left: 65px;
     animation-delay: 4s;
 }
 
