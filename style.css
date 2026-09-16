@@ -866,12 +866,18 @@ padding: 14rem 2rem 5rem;
   margin-top: 0;
   padding-top: 16px;
   font-size: 1.1rem;
-  color: #5d4636;
+  color: #7d6d60;
 }
 
 .dream-series .dream-series-meta span {
   color: #7d6d60;
   font-size: 1.1rem;
+}
+
+.dream-series .dream-series-meta span + span {
+  border-left: 1px solid rgba(93, 70, 54, 0.18);
+  padding-left: 2.2rem;
+  margin-left: 2.2rem;
 }
 /* ----------------------------------------------------------
    Final Invitation
