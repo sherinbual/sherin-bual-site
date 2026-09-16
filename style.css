@@ -723,6 +723,11 @@ padding: 14rem 2rem 5rem;
     color:#7d6d60;
     font-size:1.1rem;
 }
+
+.session-meta span + span{
+    border-left:1px solid rgba(93,70,54,.18);
+    padding-left:2.2rem;
+}
 /* ----------------------------------------------------------
    Dream Work
 ---------------------------------------------------------- */
