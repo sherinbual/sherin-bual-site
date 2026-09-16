@@ -685,11 +685,6 @@ padding: 14rem 2rem 5rem;
 /* ----------------------------------------------------------
    Dream Work
 ---------------------------------------------------------- */
-}
-
-.dream-work{
-    position:relative;
-}
 
 .dream-work::before{
     content:"";
@@ -730,13 +725,6 @@ padding: 14rem 2rem 5rem;
     max-width:42rem;
     line-height:1.95;
     color:#6f6258;
-}
-
-.package-tier h3,
-.package-note h3{
-    margin:0 0 .5rem;
-    font:400 1.9rem "Cormorant Garamond",serif;
-    color:#5d4636;
 }
 
 .package-tier h3,
@@ -1258,36 +1246,9 @@ body {
 
 /* ----------  ---------- */
 
-.services- {
-  padding: 60px 8% 45px;
-  text-align: center;
-}
-
-.intro-line {
-  margin: 0 0 22px;
-}
-
-.intro-poetry p {
-  margin: 8px 0;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.55rem;
-  font-style: italic;
-  line-height: 1.4;
-  color: #6f6258;
-}
 
 .intro-poetry {
   margin-bottom: 18px;
-}
-
-.intro-paragraph {
-  margin: 0 auto 30px;
-  font-size: 1.25rem;
-}
-.intro-transition {
-  margin: 0 auto;
-  text-align: center;
-  line-height: 1.55;
 }
 
 /* ---------- Life Coaching + Dream Work ---------- */
@@ -1336,12 +1297,8 @@ body {
     font-size: 1.2rem;
     line-height: 1.75;
     color: #6f6258;
-}
-.services-offerings .section-content p + p {
-  margin-top: 28px;
-}
-.dream-work-closing {
-  margin-top: 28px;
+
+
 }
 .services-offerings .session-meta {
   margin-top: 28px;
@@ -1471,7 +1428,7 @@ body {
   font-weight: 400;
 }
 
-.dream-series .dream-series- {
+.dream-series .dream-series-intro {
   margin-bottom: 0;
   padding-bottom: 18px;
   font-family: 'Cormorant Garamond', serif;
