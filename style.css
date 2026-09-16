@@ -1271,11 +1271,11 @@ body {
   text-align: center;
 }
 
-.-line {
+.intro-line {
   margin: 0 0 22px;
 }
 
-.-poetry p {
+.intro-poetry p {
   margin: 8px 0;
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.55rem;
@@ -1284,15 +1284,15 @@ body {
   color: #6f6258;
 }
 
-.-poetry {
+.intro-poetry {
   margin-bottom: 18px;
 }
 
-.-paragraph {
+.intro-paragraph {
   margin: 0 auto 30px;
   font-size: 1.25rem;
 }
-.-transition {
+.intro-transition {
   margin: 0 auto;
   text-align: center;
   line-height: 1.55;
