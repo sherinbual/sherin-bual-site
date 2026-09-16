@@ -688,6 +688,7 @@ padding: 14rem 2rem 5rem;
 
 .life-coaching{
     position:relative;
+}
 
 .life-coaching::before{
     content:"";
@@ -942,11 +943,9 @@ padding: 14rem 2rem 5rem;
 
 .services-section,
 .services-packages,
-.services-invitation,
-.services-{
+.services-invitation{
     padding-left:1.5rem;
     padding-right:1.5rem;
-}
 }  
 .about-hero {
   height: 60vh;
