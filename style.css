@@ -746,6 +746,7 @@ padding: 14rem 2rem 5rem;
 .services-packages {
     position: relative;
     max-width: 1100px;
+    width: 100%;
     margin: 0 auto;
     padding: 75px 5% 80px;
     background: rgba(255, 250, 240, 0.18);
