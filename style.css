@@ -660,14 +660,6 @@ padding: 14rem 2rem 5rem;
     gap: 2.35rem;
 }
 
-.section-content p {
-    margin: 0;
-    max-width: none;
-    font-size: 1.2rem;
-    line-height: 1.65;
-    color: #6f6258;
-}
-
 .section-content strong{
     color:#5d4636;
     font-weight:600;
