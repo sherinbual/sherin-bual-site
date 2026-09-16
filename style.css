@@ -662,7 +662,7 @@ padding: 14rem 2rem 5rem;
 
 .section-content p {
     margin: 0;
-    max-width: 42rem;
+    max-width: none;
     font-size: 1.2rem;
     line-height: 1.65;
     color: #6f6258;
