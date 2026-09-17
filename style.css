@@ -1241,7 +1241,8 @@ body {
   border-color: #c98772;
 }
 .contact-form button {
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
   padding: 13px 28px;
   border: 1px solid #c98772;
   border-radius: 30px;
