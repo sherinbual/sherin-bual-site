@@ -198,10 +198,9 @@ p span {
   position: fixed;
   left: 0;
   top: 0;
-
-  
   width: 140px;
   height: 100vh;
+  box-sizing: border-box;
 
   background: rgba(255,255,255,0.04);
 
