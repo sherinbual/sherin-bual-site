@@ -1150,19 +1150,28 @@ body {
   margin: 0 auto;
 }
 
-.contact-copy h2 {
+.contact-copy blockquote {
+  margin: 5rem auto 4rem;
+  padding: 0;
+  text-align: center;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 2.4rem;
-  font-weight: 500;
+  font-size: 1.7rem;
+  font-style: italic;
+  font-weight: 400;
   color: #5d4636;
-  margin: 0 0 5px;
 }
 
-.quote-attribution {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.2rem;
-  color: #705f52;
-  margin: 0 0 50px;
+.contact-copy blockquote p {
+  color: #5d4636;
+  margin-bottom: 1rem;
+}
+
+.contact-copy blockquote footer {
+  color: #8a7461;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .contact-copy p {
