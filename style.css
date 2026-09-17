@@ -1174,7 +1174,7 @@ body {
   text-transform: uppercase;
 }
 
-.contact-copy p {
+.contact-copy > p {
   font-family: 'Cormorant Garamond', serif;
   color: #705f52;
   font-size: 1.25rem;
