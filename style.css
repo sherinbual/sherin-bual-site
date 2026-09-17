@@ -83,7 +83,7 @@ p span {
   color: #b89c7a;
 }
 .hero-tagline {
-  font-style: italic;
+  font-style: normal;
   position: absolute;
   bottom: 255px;
   left: 50%;
