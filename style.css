@@ -599,7 +599,7 @@ padding: 14rem 2rem 5rem;
 .services-section + .services-section,
 .services-section + .services-packages,
 .services-packages + .services-invitation{
-    padding-top:1.3rem;
+    padding-top:1.5rem;
 }
 
 .section-header{margin-bottom:3rem;}
