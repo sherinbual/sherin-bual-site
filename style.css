@@ -1242,7 +1242,7 @@ body {
 }
 .contact-form button {
   display: block;
-  margin: 0 auto;
+  margin: 10 auto;
   padding: 13px 28px;
   border: 1px solid #c98772;
   border-radius: 30px;
