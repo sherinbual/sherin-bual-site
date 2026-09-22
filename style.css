@@ -1311,7 +1311,7 @@ body {
   max-width: 950px;
   margin: 0 auto;
 }
-..booking-content {
+.booking-content {
   font-family: "Cormorant Garamond", serif;
   padding-top: 40px;
   background: linear-gradient(
