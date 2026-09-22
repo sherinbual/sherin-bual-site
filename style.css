@@ -217,7 +217,12 @@ padding: 14rem 2rem 5rem;
 
   gap: 2.4rem;
 }
-
+body:has(.booking-hero) .side-menu {
+  background: linear-gradient(
+    #eadbc9 0%,
+    #dfc8a4 100%
+  );
+}
 .side-menu a {
   display: block;
 
