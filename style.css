@@ -1293,17 +1293,11 @@ body {
   transform: translateX(6px);
   opacity: 0.78;
 }
-.booking-content {
-  color: #5f4e41;
-}
 
 .booking-content p {
   color: #5f4e41;
   margin-bottom: 2rem;
-}
 
-.booking-opening {
-  color: #4b3a2f;
 }
 .booking-intro {
   width: 100%;
@@ -1312,15 +1306,14 @@ body {
 }
 .booking-content {
   font-family: "Cormorant Garamond", serif;
+  color: #5f4e41;
   padding-top: 40px;
   background: linear-gradient(
     #eadbc9 0%,
     #dfc8a4 100%
   );
 }
-.booking-opening {
-  font-family: "Cormorant Garamond", serif;
-}
+
 /* =========================
    BOOKING / WORK WITH ME HERO
    ========================= */
@@ -1353,19 +1346,20 @@ body {
   line-height: 1;
 
   color: #4b3a2f;
-
 }
 .booking-opening {
   font-family: "Cormorant Garamond", serif;
   font-size: 1.6rem;
   font-style: italic;
   line-height: 1.4;
+  color: #4b3a2f;
   margin-bottom: 35px;
 }
 .booking-question {
-  font-size: 1.6rem;
+  font-size: inherit;
   font-style: italic;
-  line-height: 1.4;
+  font-weight: 600;
+  line-height: inherit;
   margin-top: 40px;
   margin-bottom: 35px;
 }
@@ -1375,6 +1369,7 @@ body {
 }
 
 .booking-possibility span {
+  color: inherit;
   font-style: italic;
 }
 .booking-option {
