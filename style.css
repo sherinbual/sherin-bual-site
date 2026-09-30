@@ -1312,8 +1312,10 @@ body {
 }
 
 .booking-option,
-.booking-option:visited {
-  text-decoration: none;
+.booking-option:visited,
+.booking-option:hover,
+.booking-option:active {
+  text-decoration: none !important;
 }
 .booking-content {
   font-family: "Cormorant Garamond", serif;
