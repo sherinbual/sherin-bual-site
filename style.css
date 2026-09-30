@@ -1288,7 +1288,9 @@ body {
   color: #7a695b;
   letter-spacing: 0.04em;
 }
-
+.booking-option:visited {
+  text-decoration: none;
+}
 .booking-option:hover {
   transform: translateX(6px);
   opacity: 0.78;
