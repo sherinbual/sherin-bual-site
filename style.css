@@ -1362,28 +1362,13 @@ body {
   margin-bottom: 35px;
 }
 .booking-question {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.4rem;
-  font-style: italic;
-  font-weight: 500;
-  line-height: 1.4;
-  color: #a4865f;
-  margin-top: 40px;
-  margin-bottom: 35px;
+  padding: 0 8px;
 }
 
 .booking-question span {
   display: inline-block;
   opacity: 0;
   animation: questionReveal 8s ease-in-out infinite;
-}
-
-.booking-question span:first-child {
-  padding-left: 6px;
-}
-
-.booking-question span:last-child {
-  padding-right: 6px;
 }
 
 .booking-question span:nth-child(1) {
