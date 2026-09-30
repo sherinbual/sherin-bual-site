@@ -1316,7 +1316,7 @@ body {
 .booking-content a,
 .booking-content a:visited {
   color: #5f4e41;
-  text-decoration: none;
+  text-decoration: underline;
 }
 /* =========================
    BOOKING / WORK WITH ME HERO
