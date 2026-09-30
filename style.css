@@ -1362,6 +1362,21 @@ body {
   line-height: 1.4;
   margin-bottom: 35px;
 }
+.booking-question {
+  font-size: 1.6rem;
+  font-style: italic;
+  line-height: 1.4;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+.booking-possibility {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.booking-possibility span {
+  font-style: italic;
+}
 .booking-option {
   display: flex;
   align-items: center;
