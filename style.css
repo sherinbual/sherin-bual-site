@@ -1374,6 +1374,7 @@ body {
 
 .booking-question span {
   display: inline-block;
+  padding: 0 6px;
   opacity: 0;
   animation: questionReveal 8s ease-in-out infinite;
 }
