@@ -1374,9 +1374,16 @@ body {
 
 .booking-question span {
   display: inline-block;
-  padding: 0 6px;
   opacity: 0;
   animation: questionReveal 8s ease-in-out infinite;
+}
+
+.booking-question span:first-child {
+  padding-left: 6px;
+}
+
+.booking-question span:last-child {
+  padding-right: 6px;
 }
 
 .booking-question span:nth-child(1) {
