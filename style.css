@@ -1363,7 +1363,7 @@ body {
 }
 .booking-question {
   font-size: 1.4rem;
-  font-style: italic;
+  font-style: normal;
   font-weight: 600;
   line-height: 1.4;
   color: #a4865f;
