@@ -1372,7 +1372,9 @@ body {
   opacity: 0;
   animation: questionReveal 8s infinite;
 }
-
+.booking-question span:last-child {
+  padding-right: 6px;
+}
 .booking-question span:nth-child(1) {
   animation-delay: 0s;
 }
