@@ -1305,12 +1305,6 @@ body {
   margin: 0 auto;
 }
 
-.booking-intro a,
-.booking-intro a:visited {
-  color: #5f4e41;
-  text-decoration: underline;
-}
-
 .booking-content {
   font-family: "Cormorant Garamond", serif;
   color: #5f4e41;
