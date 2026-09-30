@@ -1367,6 +1367,8 @@ body {
 }
 
 .booking-question span {
+  display: inline-block;
+  overflow: visible;
   opacity: 0;
   animation: questionReveal 8s infinite;
 }
@@ -1382,10 +1384,7 @@ body {
 .booking-question span:nth-child(3) {
   animation-delay: 2.4s;
 }
-.booking-question span {
-  display: inline-block;
-  overflow: visible;
-}
+
 @keyframes questionReveal {
   0%, 15% {
     opacity: 0;
