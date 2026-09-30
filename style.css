@@ -1313,7 +1313,11 @@ body {
     #dfc8a4 100%
   );
 }
-
+.booking-content a,
+.booking-content a:visited {
+  color: #5f4e41;
+  text-decoration: none;
+}
 /* =========================
    BOOKING / WORK WITH ME HERO
    ========================= */
