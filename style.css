@@ -1306,7 +1306,7 @@ body {
 }
 .booking-intro a,
 .booking-intro a:visited {
-  color: #5f4e41;
+  color: #5f4e41 !important;
   text-decoration: underline;
 }
 .booking-content {
