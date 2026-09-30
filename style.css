@@ -1355,6 +1355,13 @@ body {
   color: #4b3a2f;
 
 }
+.booking-opening {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.6rem;
+  font-style: italic;
+  line-height: 1.4;
+  margin-bottom: 35px;
+}
 .booking-option {
   display: flex;
   align-items: center;
