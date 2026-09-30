@@ -1362,11 +1362,18 @@ body {
   margin-bottom: 35px;
 }
 .booking-question {
-  padding: 0 8px;
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #a4865f;
+  margin-top: 40px;
+  margin-bottom: 35px;
 }
 
 .booking-question span {
   display: inline-block;
+  overflow: visible;
   opacity: 0;
   animation: questionReveal 8s ease-in-out infinite;
 }
