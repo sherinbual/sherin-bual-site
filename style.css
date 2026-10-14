@@ -338,6 +338,8 @@ padding: 14rem 2rem 5rem;
 
 .bio-text blockquote.testimonial-quote,
 .booking-content blockquote.testimonial-quote {
+  width: 100%;
+  max-width: 860px;
   margin: 3rem auto;
   padding: 2rem 2.5rem;
   background: rgba(255, 250, 240, 0.16);
