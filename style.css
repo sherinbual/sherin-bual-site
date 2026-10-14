@@ -331,9 +331,6 @@ padding: 14rem 2rem 5rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
-/* ----------------------------------------------------------
-   Client Reflection
----------------------------------------------------------- */
 
 /* ----------------------------------------------------------
    Client Reflection
@@ -369,7 +366,7 @@ padding: 14rem 2rem 5rem;
   letter-spacing: 0.12em;
   line-height: 1.4;
   white-space: nowrap;
-  color: #8a7461;
+  color: #806957;
 }
 
 .bio-text blockquote.testimonial-quote p {
