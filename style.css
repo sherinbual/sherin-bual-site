@@ -331,6 +331,33 @@ padding: 14rem 2rem 5rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
+/* ----------------------------------------------------------
+   Client Reflection
+---------------------------------------------------------- */
+
+.bio-text blockquote.testimonial-quote {
+  margin: 4rem auto;
+  padding: 2.5rem 2.75rem;
+  background: rgba(255, 250, 240, 0.32);
+  text-align: left;
+}
+
+.bio-text .testimonial-label {
+  display: block;
+  margin-bottom: 1.25rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  font-style: normal;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8a7461;
+}
+
+.bio-text blockquote.testimonial-quote p {
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1.7;
+}
 /* ==========================================================
    SERVICES PAGE
    ========================================================== */
