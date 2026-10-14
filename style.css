@@ -335,39 +335,49 @@ padding: 14rem 2rem 5rem;
    Client Reflection
 ---------------------------------------------------------- */
 
+/* ----------------------------------------------------------
+   Client Reflection
+---------------------------------------------------------- */
+
 .bio-text blockquote.testimonial-quote {
   margin: 4rem auto;
-  padding: 2.5rem 2.75rem;
+  padding: 2rem 2.5rem;
   background: rgba(255, 250, 240, 0.16);
   text-align: left;
 }
 
+.testimonial-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.bio-text .testimonial-lotus {
+  display: block;
+  flex: 0 0 auto;
+  width: 30px;
+  height: auto;
+}
+
 .bio-text .testimonial-label {
   display: block;
-  margin-bottom: 1.25rem;
+  margin: 0;
   font-family: 'Inter', sans-serif;
   font-size: 0.7rem;
   font-style: normal;
   letter-spacing: 0.12em;
-  text-transform: uppercase;
+  line-height: 1.4;
+  white-space: nowrap;
   color: #8a7461;
 }
-.bio-text .testimonial-lotus {
-  display: block;
-  width: 30px;
-  height: auto;
-  margin: 0 auto 0.8rem;
-}
 
-.bio-text .testimonial-label {
-  text-align: center;
-  white-space: nowrap;
-}
 .bio-text blockquote.testimonial-quote p {
   margin: 0;
   font-size: 1.3rem;
   line-height: 1.7;
-  font-style: normal;
+  font-style: italic;
+  color: #5d4636;
 }
 /* ==========================================================
    SERVICES PAGE
