@@ -1382,10 +1382,13 @@ body {
 .booking-content {
   font-family: "Cormorant Garamond", serif;
   color: #5f4e41;
+
   margin-left: 140px;
   width: calc(100% - 140px);
-  padding: 40px 3.25rem 7rem;
+
+  padding: 40px 11rem 7rem;
   box-sizing: border-box;
+
   background: linear-gradient(
     #eadbc9 0%,
     #dfc8a4 100%
