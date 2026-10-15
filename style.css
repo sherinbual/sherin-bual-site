@@ -1495,9 +1495,7 @@ body {
   line-height: 1.4;
   color: #5f4e41;
 }
-.booking-staircase .staircase-one {
-  margin-bottom: 1.5rem;
-}
+
 .booking-staircase .staircase-line {
   margin-top: 0;
   margin-bottom: 0;
@@ -1509,7 +1507,9 @@ body {
   text-align: center;
   margin-left: 0;
 }
-
+.booking-staircase .staircase-one {
+  margin-bottom: 1.5rem;
+}
 .booking-staircase .staircase-three {
   font-style: italic;
 }
