@@ -1356,9 +1356,10 @@ body {
   opacity: 0.78;
 }
 
- .booking-content p {
+.booking-content p {
   color: #5f4e41;
   margin-bottom: 2rem;
+  font-size: 1.2rem;
 }
 
 .booking-intro {
