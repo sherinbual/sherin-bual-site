@@ -1385,7 +1385,7 @@ body {
   margin-left: 140px;
   width: calc(100% - 140px);
 
-  padding: 40px 11rem 7rem;
+  padding: 20px 11rem 7rem;
   box-sizing: border-box;
 
   background: linear-gradient(
@@ -1495,7 +1495,9 @@ body {
   line-height: 1.4;
   color: #5f4e41;
 }
-
+.booking-staircase .staircase-one {
+  margin-bottom: 1.5rem;
+}
 .booking-staircase .staircase-line {
   margin-top: 0;
   margin-bottom: 0;
