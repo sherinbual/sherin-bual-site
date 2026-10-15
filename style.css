@@ -1494,6 +1494,7 @@ body {
 .booking-map {
   display: block;
   transform: translateX(120px);
+  margin-top: -5px;
   color: inherit;
   font-style: italic;
 }
