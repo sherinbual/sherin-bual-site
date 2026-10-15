@@ -1539,7 +1539,9 @@ body {
 .booking-welcome {
   text-align: center;
 }
-
+.booking-coaching-line {
+  text-align: center;
+}
 /* ---------- Mobile ---------- */
 
 @media (max-width: 800px) {
