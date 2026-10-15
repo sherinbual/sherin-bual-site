@@ -1501,18 +1501,14 @@ body {
   margin-bottom: 0;
 }
 
-.booking-staircase .staircase-one {
+.booking-staircase .staircase-one,
+.booking-staircase .staircase-two,
+.booking-staircase .staircase-three {
   text-align: center;
-}
-
-.booking-staircase .staircase-two {
-  margin-left: 35%;
-  text-align: left;
+  margin-left: 0;
 }
 
 .booking-staircase .staircase-three {
-  margin-left: 67%;
-  text-align: left;
   font-style: italic;
 }
 .booking-option,
