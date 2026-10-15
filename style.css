@@ -1493,6 +1493,8 @@ body {
 
 .booking-map {
   display: block;
+  margin-left: 25%;
+  text-align: left;
   color: inherit;
   font-style: italic;
 }
