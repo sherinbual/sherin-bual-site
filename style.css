@@ -1493,11 +1493,10 @@ body {
 
 .booking-map {
   display: block;
-  transform: translateX(120%);
+  transform: translateX(120px);
   color: inherit;
   font-style: italic;
 }
-
 .booking-possibility span {
   color: inherit;
   font-style: italic;
