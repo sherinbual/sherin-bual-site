@@ -1481,25 +1481,38 @@ body {
     opacity: 0;
   }
 
-  100% {
+   100% {
     opacity: 0;
   }
 }
-.booking-possibility {
-  margin-top: 35px;
-  margin-bottom: 35px;
+
+/* POETIC STAIRCASE */
+
+.booking-staircase {
+  margin: 35px 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  color: #5f4e41;
+}
+
+.booking-staircase .staircase-line {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.booking-staircase .staircase-one {
   text-align: center;
 }
 
-.booking-map {
-  display: block;
-  transform: translateX(120px);
-  margin-top: -5px;
-  color: inherit;
-  font-style: italic;
+.booking-staircase .staircase-two {
+  margin-left: 42%;
+  text-align: left;
 }
-.booking-possibility span {
-  color: inherit;
+
+.booking-staircase .staircase-three {
+  margin-left: 67%;
+  text-align: left;
   font-style: italic;
 }
 .booking-option,
