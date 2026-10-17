@@ -623,6 +623,13 @@ padding: 14rem 2rem 5rem;
     color: #6f6258;
 
 }
+.booking-note {
+  max-width: 620px;
+  margin: 24px auto 0;
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
 
 
 /* ==========================================================
