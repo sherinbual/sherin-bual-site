@@ -627,7 +627,7 @@ padding: 14rem 2rem 5rem;
   max-width: 620px;
   margin: 24px auto 0;
   text-align: left;
-  font-size: 0.9rem;
+  font-size: inherit;
   line-height: 1.6;
   color: #705847;
 }
