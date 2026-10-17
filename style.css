@@ -708,17 +708,18 @@ padding: 14rem 2rem 5rem;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 22px;
-  align-items: start;
- transform: translateX(20px);
+  align-items: stretch;
+  transform: translateX(20px);
 }
+
 .services-offerings .services-section {
   margin: 0;
   padding: 42px 42px 36px;
-
   background: rgba(255, 250, 240, 0.32);
 
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 .services-offerings .section-header h2 a {
   color: inherit;
